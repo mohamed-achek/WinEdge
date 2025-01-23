@@ -1,0 +1,300 @@
+order_id,order_date,ship_date,customer,manufactory,product_name,segment,category,subcategory,region,zip,city,state,country,discount,profit,quantity,sales,profit_margin
+US-2020-103800,1/3/2019,1/7/2019,Darren Powers,Message Book,"Message Book, Wirebound, Four 5 1/2"" X 4"" Forms/Pg., 200 Dupl. Sets/Book",Consumer,Office Supplies,Paper,Central,77095,Houston,Texas,United States,0.2,5.5512,2,16.448,0.3375
+US-2020-112326,1/4/2019,1/8/2019,Phillina Ober,GBC,GBC Standard Plastic Binding Systems Combs,Home Office,Office Supplies,Binders,Central,60540,Naperville,Illinois,United States,0.8,-5.487,2,3.54,-1.55
+US-2020-112326,1/4/2019,1/8/2019,Phillina Ober,Avery,Avery 508,Home Office,Office Supplies,Labels,Central,60540,Naperville,Illinois,United States,0.2,4.2717,3,11.784,0.3625
+US-2020-112326,1/4/2019,1/8/2019,Phillina Ober,SAFCO,SAFCO Boltless Steel Shelving,Home Office,Office Supplies,Storage,Central,60540,Naperville,Illinois,United States,0.2,-64.7748,3,272.736,-0.2375
+US-2020-141817,1/5/2019,1/12/2019,Mick Brown,Avery,"Avery Hi-Liter EverBold Pen Style Fluorescent Highlighters, 4/Pack",Consumer,Office Supplies,Art,East,19143,Philadelphia,Pennsylvania,United States,0.2,4.884,3,19.536,0.25
+US-2020-106054,1/6/2019,1/7/2019,Jack O'Briant,Dixon,"Dixon Prang Watercolor Pencils, 10-Color Set with Brush",Corporate,Office Supplies,Art,South,30605,Athens,Georgia,United States,0,5.2398,3,12.78,0.41
+US-2020-130813,1/6/2019,1/8/2019,Lycoris Saunders,Xerox,Xerox 225,Consumer,Office Supplies,Paper,West,90049,Los Angeles,California,United States,0,9.3312,3,19.44,0.48
+US-2020-167199,1/6/2019,1/10/2019,Maria Etezadi,Global,Global Deluxe High-Back Manager's Chair,Home Office,Furniture,Chairs,South,42420,Henderson,Kentucky,United States,0,746.4078,9,2573.82,0.29
+US-2020-167199,1/6/2019,1/10/2019,Maria Etezadi,Rogers,Rogers Handheld Barrel Pencil Sharpener,Home Office,Office Supplies,Art,South,42420,Henderson,Kentucky,United States,0,1.4796,2,5.48,0.27
+US-2020-167199,1/6/2019,1/10/2019,Maria Etezadi,Ibico,Ibico Hi-Tech Manual Binding System,Home Office,Office Supplies,Binders,South,42420,Henderson,Kentucky,United States,0,274.491,2,609.98,0.45
+US-2020-167199,1/6/2019,1/10/2019,Maria Etezadi,Alliance,"Alliance Super-Size Bands, Assorted Sizes",Home Office,Office Supplies,Fasteners,South,42420,Henderson,Kentucky,United States,0,0.3112,4,31.12,0.01
+US-2020-167199,1/6/2019,1/10/2019,Maria Etezadi,Southworth,Southworth 25% Cotton Granite Paper & Envelopes,Home Office,Office Supplies,Paper,South,42420,Henderson,Kentucky,United States,0,3.0084,1,6.54,0.46
+US-2020-167199,1/6/2019,1/10/2019,Maria Etezadi,Other,Wireless Extenders zBoost YX545 SOHO Signal Booster,Home Office,Technology,Phones,South,42420,Henderson,Kentucky,United States,0,204.1092,4,755.96,0.27
+US-2020-167199,1/6/2019,1/10/2019,Maria Etezadi,GE,GE 30524EE4,Home Office,Technology,Phones,South,42420,Henderson,Kentucky,United States,0,113.6742,2,391.98,0.29
+US-2020-105417,1/7/2019,1/12/2019,Vivek Sundaresam,Howard Miller,"Howard Miller 14-1/2"" Diameter Chrome Round Wall Clock",Consumer,Furniture,Furnishings,Central,77340,Huntsville,Texas,United States,0.6,-53.7096,3,76.728,-0.7
+US-2020-105417,1/7/2019,1/12/2019,Vivek Sundaresam,Acco,"Acco Four Pocket Poly Ring Binder with Label Holder, Smoke, 1""",Consumer,Office Supplies,Binders,Central,77340,Huntsville,Texas,United States,0.8,-18.2525,7,10.43,-1.75
+US-2020-135405,1/9/2019,1/13/2019,Melanie Seite,Newell,Newell 312,Consumer,Office Supplies,Art,Central,78041,Laredo,Texas,United States,0.2,1.168,2,9.344,0.125
+US-2020-135405,1/9/2019,1/13/2019,Melanie Seite,Memorex,Memorex Micro Travel Drive 8 GB,Consumer,Technology,Accessories,Central,78041,Laredo,Texas,United States,0.2,9.75,3,31.2,0.3125
+US-2020-149020,1/10/2019,1/15/2019,Anthony Jacobs,Howard Miller,"Howard Miller 11-1/2"" Diameter Ridgewood Wall Clock",Corporate,Furniture,Furnishings,South,22153,Springfield,Virginia,United States,0,21.2954,1,51.94,0.41
+US-2020-149020,1/10/2019,1/15/2019,Anthony Jacobs,Avery,Avery 482,Corporate,Office Supplies,Labels,South,22153,Springfield,Virginia,United States,0,1.3583,1,2.89,0.47
+US-2020-130092,1/11/2019,1/14/2019,Seth Vernon,DAX,"DAX Value U-Channel Document Frames, Easel Back",Consumer,Furniture,Furnishings,East,19901,Dover,Delaware,United States,0,3.0814,2,9.94,0.31
+US-2020-109232,1/13/2019,1/16/2019,Natalie DeCherney,Global,Global Highback Leather Tilter in Burgundy,Consumer,Furniture,Chairs,South,29464,Mount Pleasant,South Carolina,United States,0,87.3504,6,545.94,0.16
+US-2020-118192,1/13/2019,1/18/2019,Michael Moore,Avery,Avery Metallic Poly Binders,Consumer,Office Supplies,Binders,East,43055,Newark,Ohio,United States,0.7,-2.5212,2,3.438,-0.733333333
+US-2020-118192,1/13/2019,1/18/2019,Michael Moore,Xerox,Xerox 1923,Consumer,Office Supplies,Paper,East,43055,Newark,Ohio,United States,0.2,13.0928,7,37.408,0.35
+US-2020-157147,1/13/2019,1/18/2019,Brian Dahlen,O'Sullivan,"O'Sullivan Elevations Bookcase, Cherry Finish",Consumer,Furniture,Bookcases,West,94109,San Francisco,California,United States,0.15,3.9294,3,333.999,0.011764706
+US-2020-157147,1/13/2019,1/18/2019,Brian Dahlen,Other,4009 Highlighters by Sanford,Consumer,Office Supplies,Art,West,94109,San Francisco,California,United States,0,6.567,5,19.9,0.33
+US-2020-157147,1/13/2019,1/18/2019,Brian Dahlen,Tennsco,Tennsco 6- and 18-Compartment Lockers,Consumer,Office Supplies,Storage,West,94109,San Francisco,California,United States,0,238.653,5,1325.85,0.18
+US-2020-162775,1/13/2019,1/15/2019,Chris Selesnick,3-ring staple pack,3-ring staple pack,Corporate,Office Supplies,Binders,South,71111,Bossier City,Louisiana,United States,0,2.7072,3,5.64,0.48
+US-2020-162775,1/13/2019,1/15/2019,Chris Selesnick,Other,Brown Kraft Recycled Envelopes,Corporate,Office Supplies,Envelopes,South,71111,Bossier City,Louisiana,United States,0,25.47,3,50.94,0.5
+US-2020-162775,1/13/2019,1/15/2019,Chris Selesnick,Staple envelope,Staple envelope,Corporate,Office Supplies,Envelopes,South,71111,Bossier City,Louisiana,United States,0,5.3392,2,11.36,0.47
+US-2020-162775,1/13/2019,1/15/2019,Chris Selesnick,Fellowes,Fellowes Stor/Drawer Steel Plus Storage Drawers,Corporate,Office Supplies,Storage,South,71111,Bossier City,Louisiana,United States,0,34.3548,6,572.58,0.06
+US-2020-162775,1/13/2019,1/15/2019,Chris Selesnick,Plantronics,Plantronics S12 Corded Telephone Headset System,Corporate,Technology,Accessories,South,71111,Bossier City,Louisiana,United States,0,258.696,6,646.74,0.4
+US-2020-149524,1/14/2019,1/15/2019,Brendan Sweed,Sauder,Sauder Cornerstone Collection Library,Corporate,Furniture,Bookcases,East,19140,Philadelphia,Pennsylvania,United States,0.5,-53.2856,4,61.96,-0.86
+US-2020-103366,1/15/2019,1/17/2019,Erica Hackney,Logitech,Logitech 910-002974 M325 Wireless Mouse for Web Scrolling,Consumer,Technology,Accessories,South,30076,Roswell,Georgia,United States,0,65.978,5,149.95,0.44
+US-2020-115791,1/16/2019,1/18/2019,Delfina Latchford,DAX,DAX Black Cherry Wood-Tone Poster Frame,Consumer,Furniture,Furnishings,East,19134,Philadelphia,Pennsylvania,United States,0.2,28.5984,6,127.104,0.225
+US-2020-115791,1/16/2019,1/18/2019,Delfina Latchford,GBC,GBC Linen Binding Covers,Consumer,Office Supplies,Binders,East,19134,Philadelphia,Pennsylvania,United States,0.7,-13.6312,2,18.588,-0.733333333
+US-2020-115791,1/16/2019,1/18/2019,Delfina Latchford,Other,Round Specialty Laser Printer Labels,Consumer,Office Supplies,Labels,East,19134,Philadelphia,Pennsylvania,United States,0.2,10.1493,3,30.072,0.3375
+US-2020-115791,1/16/2019,1/18/2019,Delfina Latchford,AT&T,AT&T 841000 Phone,Consumer,Technology,Phones,East,19134,Philadelphia,Pennsylvania,United States,0.4,-31.05,3,124.2,-0.25
+US-2020-123477,1/18/2019,1/21/2019,David Wiener,Fellowes,Fellowes Mighty 8 Compact Surge Protector,Corporate,Office Supplies,Appliances,West,97477,Springfield,Oregon,United States,0.2,6.4864,4,64.864,0.1
+US-2020-146591,1/19/2019,1/20/2019,Toby Swindell,O'Sullivan,O'Sullivan 4-Shelf Bookcase in Odessa Pine,Consumer,Furniture,Bookcases,West,85254,Scottsdale,Arizona,United States,0.7,-320.597,5,181.47,-1.766666667
+US-2020-146591,1/19/2019,1/20/2019,Toby Swindell,GBC,"GBC Standard Recycled Report Covers, Clear Plastic Sheets",Consumer,Office Supplies,Binders,West,85254,Scottsdale,Arizona,United States,0.7,-23.716,10,32.34,-0.733333333
+US-2020-146591,1/19/2019,1/20/2019,Toby Swindell,Tyvek,"Tyvek  Top-Opening Peel & Seel Envelopes, Plain White",Consumer,Office Supplies,Envelopes,West,85254,Scottsdale,Arizona,United States,0.2,36.693,5,108.72,0.3375
+US-2020-146591,1/19/2019,1/20/2019,Toby Swindell,TOPS,"TOPS Carbonless Receipt Book, Four 2-3/4 x 7-1/4 Money Receipts per Page",Consumer,Office Supplies,Paper,West,85254,Scottsdale,Arizona,United States,0.2,19.6224,4,56.064,0.35
+US-2020-147627,1/20/2019,1/26/2019,Hunter Lopez,Hon,Hon 4700 Series Mobuis Mid-Back Task Chairs with Adjustable Arms,Consumer,Furniture,Chairs,South,72401,Jonesboro,Arkansas,United States,0,224.2674,3,1067.94,0.21
+US-2020-147627,1/20/2019,1/26/2019,Hunter Lopez,Eldon,"Eldon Expressions Desk Accessory, Wood Pencil Holder, Oak",Consumer,Furniture,Furnishings,South,72401,Jonesboro,Arkansas,United States,0,11.58,4,38.6,0.3
+US-2020-147627,1/20/2019,1/26/2019,Hunter Lopez,Newell,Newell 351,Consumer,Office Supplies,Art,South,72401,Jonesboro,Arkansas,United States,0,6.6584,7,22.96,0.29
+US-2020-147627,1/20/2019,1/26/2019,Hunter Lopez,Newell,Newell 327,Consumer,Office Supplies,Art,South,72401,Jonesboro,Arkansas,United States,0,1.7901,3,6.63,0.27
+US-2020-147627,1/20/2019,1/26/2019,Hunter Lopez,Staple envelope,Staple envelope,Consumer,Office Supplies,Envelopes,South,72401,Jonesboro,Arkansas,United States,0,10.9698,3,23.34,0.47
+US-2020-147627,1/20/2019,1/26/2019,Hunter Lopez,Apple,Apple iPhone 5C,Consumer,Technology,Phones,South,72401,Jonesboro,Arkansas,United States,0,181.9818,7,699.93,0.26
+US-2020-147774,1/20/2019,1/26/2019,Muhammed MacIntyre,GBC,GBC DocuBind TL200 Manual Binding Machine,Corporate,Office Supplies,Binders,South,37167,Smyrna,Tennessee,United States,0.7,-51.5154,1,67.194,-0.766666667
+US-2020-148614,1/20/2019,1/25/2019,Mark Van Huff,Eldon,"Eldon Expressions Desk Accessory, Wood Pencil Holder, Oak",Consumer,Furniture,Furnishings,West,90049,Los Angeles,California,United States,0,5.79,2,19.3,0.3
+US-2020-148614,1/20/2019,1/25/2019,Mark Van Huff,Wirebound,"Wirebound Service Call Books, 5 1/2"" x 4""",Consumer,Office Supplies,Paper,West,90049,Los Angeles,California,United States,0,9.2928,2,19.36,0.48
+US-2020-167927,1/20/2019,1/26/2019,Xylona Preis,Ultra,Ultra Door Push Plate,Consumer,Furniture,Furnishings,Central,48185,Westland,Michigan,United States,0,4.8609,3,14.73,0.33
+US-2020-167927,1/20/2019,1/26/2019,Xylona Preis,Eldon,Eldon ClusterMat Chair Mat with Cordless Antistatic Protection,Consumer,Furniture,Furnishings,Central,48185,Westland,Michigan,United States,0,30.0234,3,272.94,0.11
+US-2020-167927,1/20/2019,1/26/2019,Xylona Preis,Holmes,"Holmes Replacement Filter for HEPA Air Cleaner, Very Large Room, HEPA Filter",Consumer,Office Supplies,Appliances,Central,48185,Westland,Michigan,United States,0.1,93.5816,4,247.716,0.377777778
+US-2020-167927,1/20/2019,1/26/2019,Xylona Preis,Panasonic,Panasonic KP-4ABK Battery-Operated Pencil Sharpener,Consumer,Office Supplies,Art,Central,48185,Westland,Michigan,United States,0,12.7368,3,43.92,0.29
+US-2020-167927,1/20/2019,1/26/2019,Xylona Preis,Acco,"Acco Pressboard Covers with Storage Hooks, 9 1/2"" x 11"", Executive Red",Consumer,Office Supplies,Binders,Central,48185,Westland,Michigan,United States,0,8.9535,5,19.05,0.47
+US-2020-167927,1/20/2019,1/26/2019,Xylona Preis,Storex,Storex Dura Pro Binders,Consumer,Office Supplies,Binders,Central,48185,Westland,Michigan,United States,0,13.365,5,29.7,0.45
+US-2020-167927,1/20/2019,1/26/2019,Xylona Preis,Eldon,Eldon Fold 'N Roll Cart System,Consumer,Office Supplies,Storage,Central,48185,Westland,Michigan,United States,0,4.0542,1,13.98,0.29
+US-2020-167927,1/20/2019,1/26/2019,Xylona Preis,Fellowes,Fellowes Bases and Tops For Staxonsteel/High-Stak Systems,Consumer,Office Supplies,Storage,Central,48185,Westland,Michigan,United States,0,15.9792,2,66.58,0.24
+US-2020-110422,1/21/2019,1/23/2019,Tom Boeckenhauer,Ultra,Ultra Door Pull Handle,Consumer,Furniture,Furnishings,South,33180,Miami,Florida,United States,0.2,4.1028,3,25.248,0.1625
+US-2020-102645,1/23/2019,1/28/2019,Ionia McGrath,Xerox,Xerox 195,Consumer,Office Supplies,Paper,West,89115,Las Vegas,Nevada,United States,0,19.2384,6,40.08,0.48
+US-2020-146997,1/23/2019,1/27/2019,Speros Goranitis,Alliance,"Alliance Big Bands Rubber Bands, 12/Pack",Consumer,Office Supplies,Fasteners,Central,47905,Lafayette,Indiana,United States,0,0,3,5.94,0
+US-2020-155502,1/26/2019,1/31/2019,Shirley Daniels,Eldon,Eldon Image Series Black Desk Accessories,Home Office,Furniture,Furnishings,South,22304,Alexandria,Virginia,United States,0,4.4712,3,12.42,0.36
+US-2020-155502,1/26/2019,1/31/2019,Shirley Daniels,GE,"GE General Use Halogen Bulbs, 100 Watts, 1 Bulb per Pack",Home Office,Furniture,Furnishings,South,22304,Alexandria,Virginia,United States,0,30.7818,3,62.82,0.49
+US-2020-155502,1/26/2019,1/31/2019,Shirley Daniels,REDIFORM,"REDIFORM Incoming/Outgoing Call Register, 11"" X 8 1/2"", 100 Messages",Home Office,Office Supplies,Paper,South,22304,Alexandria,Virginia,United States,0,8.34,2,16.68,0.5
+US-2020-155502,1/26/2019,1/31/2019,Shirley Daniels,Eureka,"Eureka Recycled Copy Paper 8 1/2"" x 11"", Ream",Home Office,Office Supplies,Paper,South,22304,Alexandria,Virginia,United States,0,9.3312,3,19.44,0.48
+US-2020-155502,1/26/2019,1/31/2019,Shirley Daniels,SAFCO,"SAFCO Commercial Wire Shelving, 72h",Home Office,Office Supplies,Storage,South,22304,Alexandria,Virginia,United States,0,0,8,489.92,0
+US-2020-155502,1/26/2019,1/31/2019,Shirley Daniels,Jabra,Jabra SPEAK 410,Home Office,Technology,Phones,South,22304,Alexandria,Virginia,United States,0,52.6344,2,187.98,0.28
+US-2020-155502,1/26/2019,1/31/2019,Shirley Daniels,Other,Macally Suction Cup Mount,Home Office,Technology,Phones,South,22304,Alexandria,Virginia,United States,0,0,13,155.35,0
+US-2020-167997,1/26/2019,1/29/2019,Carol Adams,SAFCO,"Safco Value Mate Series Steel Bookcases, Baked Enamel Finish on Steel, Gray",Corporate,Furniture,Bookcases,Central,57701,Rapid City,South Dakota,United States,0,39.7488,2,141.96,0.28
+US-2020-167997,1/26/2019,1/29/2019,Carol Adams,Wilson Jones,Wilson Jones 14 Line Acrylic Coated Pressboard Data Binders,Corporate,Office Supplies,Binders,Central,57701,Rapid City,South Dakota,United States,0,5.0196,2,10.68,0.47
+US-2020-117163,1/27/2019,2/2/2019,Ed Jacobs,Balt,Balt Split Level Computer Training Table,Consumer,Furniture,Tables,West,92037,San Diego,California,United States,0.2,-16.65,3,333,-0.05
+US-2020-117163,1/27/2019,2/2/2019,Ed Jacobs,Dixon,Dixon Ticonderoga Core-Lock Colored Pencils,Consumer,Office Supplies,Art,West,92037,San Diego,California,United States,0,12.0252,4,36.44,0.33
+US-2020-117163,1/27/2019,2/2/2019,Ed Jacobs,Other,Recycled Steel Personal File for Hanging File Folders,Consumer,Office Supplies,Storage,West,92037,San Diego,California,United States,0,14.3075,1,57.23,0.25
+US-2020-100328,1/28/2019,2/3/2019,Jasper Cacioppo,Pressboard,"Pressboard Covers with Storage Hooks, 9 1/2"" x 11"", Light Blue",Consumer,Office Supplies,Binders,East,10024,New York City,New York,United States,0.2,1.3257,1,3.928,0.3375
+US-2020-134103,1/30/2019,2/4/2019,Mike Vittorini,Xerox,Xerox 1972,Consumer,Office Supplies,Paper,Central,48234,Detroit,Michigan,United States,0,4.752,2,10.56,0.45
+US-2020-134103,1/30/2019,2/4/2019,Mike Vittorini,Space Solutions,Space Solutions HD Industrial Steel Shelving.,Consumer,Office Supplies,Storage,Central,48234,Detroit,Michigan,United States,0,6.8982,2,229.94,0.03
+US-2020-115161,1/31/2019,2/2/2019,Liz Carlisle,Sauder,"Sauder Facets Collection Library, Sky Alder Finish",Consumer,Furniture,Bookcases,West,92691,Mission Viejo,California,United States,0.15,3.4196,2,290.666,0.011764706
+US-2020-140795,2/1/2019,2/3/2019,Bradley Drucker,Enermax,Enermax Aurora Lite Keyboard,Consumer,Technology,Accessories,Central,54302,Green Bay,Wisconsin,United States,0,206.316,6,468.9,0.44
+US-2020-123400,2/2/2019,2/9/2019,Eric Barreto,Other,Surelock Post Binders,Consumer,Office Supplies,Binders,South,33710,Saint Petersburg,Florida,United States,0.7,-12.224,2,18.336,-0.666666667
+US-2020-123400,2/2/2019,2/9/2019,Eric Barreto,AT&T,AT&T 17929 Lendline Telephone,Consumer,Technology,Phones,South,33710,Saint Petersburg,Florida,United States,0.2,13.572,5,180.96,0.075
+US-2020-139857,2/2/2019,2/6/2019,Cynthia Delaney,Other,Staples,Home Office,Office Supplies,Fasteners,West,92037,San Diego,California,United States,0,5.8045,5,12.35,0.47
+US-2020-111059,2/3/2019,2/6/2019,Tom Boeckenhauer,Avery,Avery Durable Poly Binders,Consumer,Office Supplies,Binders,West,98105,Seattle,Washington,United States,0.2,4.3134,3,13.272,0.325
+US-2020-111059,2/3/2019,2/6/2019,Tom Boeckenhauer,Ibico,Ibico Laser Imprintable Binding System Covers,Consumer,Office Supplies,Binders,West,98105,Seattle,Washington,United States,0.2,27.248,2,83.84,0.325
+US-2020-104808,2/4/2019,2/8/2019,Mark Haberlin,GBC,"GBC Standard Recycled Report Covers, Clear Plastic Sheets",Corporate,Office Supplies,Binders,West,92025,Escondido,California,United States,0.2,6.0368,2,17.248,0.35
+US-2020-107181,2/4/2019,2/8/2019,Deborah Brumfield,GBC,GBC Recycled Grain Textured Covers,Home Office,Office Supplies,Binders,West,92024,San Diego,California,United States,0.2,29.0136,3,82.896,0.35
+US-2020-107181,2/4/2019,2/8/2019,Deborah Brumfield,Message Book,"Message Book, Standard Line ""While You Were Out"", 5 1/2"" X 4"", 200 Sets/Book",Home Office,Office Supplies,Paper,West,92024,San Diego,California,United States,0,16.0928,4,34.24,0.47
+US-2020-108182,2/6/2019,2/10/2019,Delfina Latchford,Avery,"Avery Flip-Chart Easel Binder, Black",Consumer,Office Supplies,Binders,Central,60441,Romeoville,Illinois,United States,0.8,-14.7708,2,8.952,-1.65
+US-2020-131905,2/6/2019,2/9/2019,Neil Ducich,Avery,Avery 480,Corporate,Office Supplies,Labels,South,23320,Chesapeake,Virginia,United States,0,7.2,4,15,0.48
+US-2020-131905,2/6/2019,2/9/2019,Neil Ducich,AT&T,AT&T CL82213,Corporate,Technology,Phones,South,23320,Chesapeake,Virginia,United States,0,42.0355,5,144.95,0.29
+US-2020-131905,2/6/2019,2/9/2019,Neil Ducich,Other,Aastra 57i VoIP phone,Corporate,Technology,Phones,South,23320,Chesapeake,Virginia,United States,0,42.0186,1,161.61,0.26
+US-2020-107755,2/7/2019,2/12/2019,Cyma Kinney,Maxell,Maxell DVD-RAM Discs,Corporate,Technology,Accessories,East,7036,Linden,New Jersey,United States,0,49.6048,7,115.36,0.43
+US-2020-169390,2/7/2019,2/10/2019,Chris Selesnick,Acco,Acco Perma 4000 Stacking Storage Drawers,Corporate,Office Supplies,Storage,East,10024,New York City,New York,United States,0,9.744,4,64.96,0.15
+US-2020-125759,2/8/2019,2/9/2019,Nathan Mautz,Master Caster,"Master Caster Door Stop, Large Brown",Home Office,Furniture,Furnishings,West,89031,North Las Vegas,Nevada,United States,0,5.5328,2,14.56,0.38
+US-2020-127614,2/11/2019,2/15/2019,Natalie Fritzler,Hon,Hon 2111 Invitation Series Corner Table,Consumer,Furniture,Tables,South,23320,Chesapeake,Virginia,United States,0,75.3732,6,1256.22,0.06
+US-2020-127614,2/11/2019,2/15/2019,Natalie Fritzler,Wilson Jones,Wilson Jones Leather-Like Binders with DublLock Round Rings,Consumer,Office Supplies,Binders,South,23320,Chesapeake,Virginia,United States,0,8.2062,2,17.46,0.47
+US-2020-127614,2/11/2019,2/15/2019,Natalie Fritzler,Enermax,Enermax Aurora Lite Keyboard,Consumer,Technology,Accessories,South,23320,Chesapeake,Virginia,United States,0,103.158,3,234.45,0.44
+US-2020-168368,2/11/2019,2/15/2019,Guy Armstrong,Global,"Global Value Mid-Back Manager's Chair, Gray",Consumer,Furniture,Chairs,Central,65203,Columbia,Missouri,United States,0,15.2225,1,60.89,0.25
+US-2020-168368,2/11/2019,2/15/2019,Guy Armstrong,Other,"Rubbermaid ClusterMat Chairmats, Mat Size- 66"" x 60"", Lip 20"" x 11"" -90 Degree Angle",Consumer,Furniture,Furnishings,Central,65203,Columbia,Missouri,United States,0,53.2704,3,332.94,0.16
+US-2020-168368,2/11/2019,2/15/2019,Guy Armstrong,Other,VariCap6 Expandable Binder,Consumer,Office Supplies,Binders,Central,65203,Columbia,Missouri,United States,0,24.393,3,51.9,0.47
+US-2020-168368,2/11/2019,2/15/2019,Guy Armstrong,Wilson Jones,Wilson Jones Turn Tabs Binder Tool for Ring Binders,Consumer,Office Supplies,Binders,Central,65203,Columbia,Missouri,United States,0,4.4344,2,9.64,0.46
+US-2020-168368,2/11/2019,2/15/2019,Guy Armstrong,Avery,Avery 483,Consumer,Office Supplies,Labels,Central,65203,Columbia,Missouri,United States,0,6.8724,3,14.94,0.46
+US-2020-168368,2/11/2019,2/15/2019,Guy Armstrong,Fellowes,Fellowes Neat Ideas Storage Cubes,Consumer,Office Supplies,Storage,Central,65203,Columbia,Missouri,United States,0,2.5984,2,64.96,0.04
+US-2020-110674,2/12/2019,2/18/2019,Sanjit Chand,Global,"Global Geo Office Task Chair, Gray",Consumer,Furniture,Chairs,West,94521,Concord,California,United States,0.2,-24.294,2,129.568,-0.1875
+US-2020-107706,2/14/2019,2/19/2019,Shui Tom,Other,"Memo Book, 100 Message Capacity, 5 3/8” x 11”",Consumer,Office Supplies,Paper,Central,77095,Houston,Texas,United States,0.2,6.066,3,16.176,0.375
+US-2020-121762,2/14/2019,2/18/2019,Marina Lichtenstein,Belkin,Belkin 8 Outlet Surge Protector,Corporate,Office Supplies,Appliances,West,98103,Seattle,Washington,United States,0,22.9488,2,81.96,0.28
+US-2020-121762,2/14/2019,2/18/2019,Marina Lichtenstein,Other,Compact Automatic Electric Letter Opener,Corporate,Office Supplies,Supplies,West,98103,Seattle,Washington,United States,0,4.7724,2,238.62,0.02
+US-2020-121762,2/14/2019,2/18/2019,Marina Lichtenstein,Logitech,Logitech G600 MMO Gaming Mouse,Corporate,Technology,Accessories,West,98103,Seattle,Washington,United States,0,86.3892,3,239.97,0.36
+US-2020-165568,2/15/2019,2/19/2019,Barry Französisch,Pressboard,Pressboard Data Binders by Wilson Jones,Corporate,Office Supplies,Binders,West,98105,Seattle,Washington,United States,0.2,7.209,5,21.36,0.3375
+US-2020-122567,2/16/2019,2/21/2019,Michael Nguyen,Holmes,"Holmes Cool Mist Humidifier for the Whole House with 8-Gallon Output per Day, Extended Life Filter",Consumer,Office Supplies,Appliances,Central,75220,Dallas,Texas,United States,0.8,-13.93,2,7.96,-1.75
+US-2020-122567,2/16/2019,2/21/2019,Michael Nguyen,Wilson Jones,Wilson Jones Easy Flow II Sheet Lifters,Consumer,Office Supplies,Binders,Central,75220,Dallas,Texas,United States,0.8,-1.728,3,1.08,-1.6
+US-2020-154165,2/17/2019,2/24/2019,Delfina Latchford,Staples in misc. colors,Staples in misc. colors,Consumer,Office Supplies,Art,Central,60653,Chicago,Illinois,United States,0.2,8.8088,14,54.208,0.1625
+US-2020-152905,2/18/2019,2/24/2019,Aaron Bergman,Akro,Akro Stacking Bins,Consumer,Office Supplies,Storage,Central,76017,Arlington,Texas,United States,0.2,-2.5248,2,12.624,-0.2
+US-2020-165589,2/18/2019,2/18/2019,Troy Blackwell,DAX,"DAX Copper Panel Document Frame, 5 x 7 Size",Consumer,Furniture,Furnishings,Central,79424,Lubbock,Texas,United States,0.6,-11.322,5,25.16,-0.45
+US-2020-109491,2/20/2019,2/26/2019,Linda Cazamias,Master Caster,"Master Caster Door Stop, Brown",Corporate,Furniture,Furnishings,Central,47374,Richmond,Indiana,United States,0,6.9088,4,20.32,0.34
+US-2020-109491,2/20/2019,2/26/2019,Linda Cazamias,Enermax,Enermax Briskie RF Wireless Keyboard and Mouse Combo,Corporate,Technology,Accessories,Central,47374,Richmond,Indiana,United States,0,22.4316,3,62.31,0.36
+US-2020-164903,2/20/2019,2/24/2019,Steven Roelle,Xerox,Xerox 204,Home Office,Office Supplies,Paper,West,90049,Los Angeles,California,United States,0,6.2208,2,12.96,0.48
+US-2020-165540,2/21/2019,2/25/2019,Tamara Manning,GBC,GBC Standard Plastic Binding Systems Combs,Consumer,Office Supplies,Binders,Central,60098,Woodstock,Illinois,United States,0.8,-13.7175,5,8.85,-1.55
+US-2020-133354,2/22/2019,2/24/2019,Sue Ann Reed,Xerox,Xerox 220,Consumer,Office Supplies,Paper,West,92553,Moreno Valley,California,United States,0,9.3312,3,19.44,0.48
+US-2020-103744,2/23/2019,2/27/2019,Michael Grace,GBC,GBC Plastic Binding Combs,Home Office,Office Supplies,Binders,Central,79907,El Paso,Texas,United States,0.8,-6.8634,3,4.428,-1.55
+US-2020-103744,2/23/2019,2/27/2019,Michael Grace,Staple-on labels,Staple-on labels,Home Office,Office Supplies,Labels,Central,79907,El Paso,Texas,United States,0.2,2.3409,3,6.936,0.3375
+US-2020-137680,2/24/2019,3/2/2019,Jennifer Halladay,TOPS,"TOPS 4 x 6 Fluorescent Color Memo Sheets, 500 Sheets per Pack",Consumer,Office Supplies,Paper,West,97504,Medford,Oregon,United States,0.2,7.6869,3,22.776,0.3375
+US-2020-137680,2/24/2019,3/2/2019,Jennifer Halladay,Message Book,"Message Book, Wirebound, Four 5 1/2"" X 4"" Forms/Pg., 200 Dupl. Sets/Book",Consumer,Office Supplies,Paper,West,97504,Medford,Oregon,United States,0.2,11.1024,4,32.896,0.3375
+US-2020-156545,2/27/2019,3/3/2019,Joy Smith,Zebra,Zebra Zazzle Fluorescent Highlighters,Consumer,Office Supplies,Art,East,43229,Columbus,Ohio,United States,0.2,3.4048,4,19.456,0.175
+US-2020-104269,3/1/2019,3/6/2019,Dave Brooks,Global,Global Deluxe High-Back Manager's Chair,Consumer,Furniture,Chairs,West,98115,Seattle,Washington,United States,0.2,51.4764,2,457.568,0.1125
+US-2020-113880,3/1/2019,3/5/2019,Vicky Freymann,Novimex,Novimex Swivel Fabric Task Chair,Home Office,Furniture,Chairs,Central,60126,Elmhurst,Illinois,United States,0.3,-172.1172,6,634.116,-0.271428571
+US-2020-113880,3/1/2019,3/5/2019,Vicky Freymann,Other,"Black Print Carbonless 8 1/2"" x 8 1/4"" Rapid Memo Book",Home Office,Office Supplies,Paper,Central,60126,Elmhurst,Illinois,United States,0.2,5.6784,3,17.472,0.325
+US-2020-131009,3/1/2019,3/5/2019,Shahid Collister,Other,Harbour Creations Steel Folding Chair,Consumer,Furniture,Chairs,Central,79907,El Paso,Texas,United States,0.3,0,6,362.25,0
+US-2020-131009,3/1/2019,3/5/2019,Shahid Collister,DAX,DAX Black Cherry Wood-Tone Poster Frame,Consumer,Furniture,Furnishings,Central,79907,El Paso,Texas,United States,0.6,-34.9536,6,63.552,-0.55
+US-2020-131009,3/1/2019,3/5/2019,Shahid Collister,Other,Plymouth Boxed Rubber Bands by Plymouth,Consumer,Office Supplies,Fasteners,Central,79907,El Paso,Texas,United States,0.2,-3.5325,5,18.84,-0.1875
+US-2020-131009,3/1/2019,3/5/2019,Shahid Collister,Fellowes,Fellowes Bankers Box Recycled Super Stor/Drawer,Consumer,Office Supplies,Storage,Central,79907,El Paso,Texas,United States,0.2,-22.6716,3,129.552,-0.175
+US-2020-143707,3/1/2019,3/5/2019,Hallie Redmond,Other,Sannysis Cute Owl Design Soft Skin Case Cover for Samsung Galaxy S4,Home Office,Technology,Phones,East,10035,New York City,New York,United States,0,1.6038,3,5.94,0.27
+US-2020-168312,3/1/2019,3/7/2019,Giulietta Weimer,Bevis,Bevis Round Conference Room Tables and Bases,Consumer,Furniture,Tables,Central,77036,Houston,Texas,United States,0.3,-43.0296,3,376.509,-0.114285714
+US-2020-168312,3/1/2019,3/7/2019,Giulietta Weimer,Other,Recycled Steel Personal File for Hanging File Folders,Consumer,Office Supplies,Storage,Central,77036,Houston,Texas,United States,0.2,8.5845,3,137.352,0.0625
+US-2020-107524,3/2/2019,3/8/2019,Kristina Nunn,Staple envelope,Staple envelope,Home Office,Office Supplies,Envelopes,East,10009,New York City,New York,United States,0,5.3392,2,11.36,0.47
+US-2020-107524,3/2/2019,3/8/2019,Kristina Nunn,Array,"Array Parchment Paper, Assorted Colors",Home Office,Office Supplies,Paper,East,10009,New York City,New York,United States,0,17.472,5,36.4,0.48
+US-2020-111157,3/2/2019,3/6/2019,Nicole Hansen,Xerox 1971,Xerox 1971,Corporate,Office Supplies,Paper,East,19120,Philadelphia,Pennsylvania,United States,0.2,1.07,1,3.424,0.3125
+US-2020-111157,3/2/2019,3/6/2019,Nicole Hansen,Other,Hypercom P1300 Pinpad,Corporate,Technology,Accessories,East,19120,Philadelphia,Pennsylvania,United States,0.2,32.13,3,151.2,0.2125
+US-2020-105648,3/3/2019,3/7/2019,Eva Jacobs,Bevis,"Bevis Oval Conference Table, Walnut",Consumer,Furniture,Tables,West,92037,San Diego,California,United States,0.2,-23.4882,3,626.352,-0.0375
+US-2020-127964,3/3/2019,3/8/2019,Anne Pryor,Cardinal,"Cardinal HOLDit! Binder Insert Strips,Extra Strips",Home Office,Office Supplies,Binders,East,10035,New York City,New York,United States,0.2,9.1785,5,25.32,0.3625
+US-2020-127964,3/3/2019,3/8/2019,Anne Pryor,Ibico,Ibico Laser Imprintable Binding System Covers,Home Office,Office Supplies,Binders,East,10035,New York City,New York,United States,0.2,40.872,3,125.76,0.325
+US-2020-127964,3/3/2019,3/8/2019,Anne Pryor,Other,PowerGen Dual USB Car Charger,Home Office,Technology,Phones,East,10035,New York City,New York,United States,0,4.5954,1,9.99,0.46
+US-2020-127978,3/3/2019,3/8/2019,Jill Stevenson,O'Sullivan,O'Sullivan 4-Shelf Bookcase in Odessa Pine,Corporate,Furniture,Bookcases,East,43229,Columbus,Ohio,United States,0.5,-199.617,5,302.45,-0.66
+US-2020-127978,3/3/2019,3/8/2019,Jill Stevenson,Avery,Avery 495,Corporate,Office Supplies,Labels,East,43229,Columbus,Ohio,United States,0.2,4.914,3,15.12,0.325
+US-2020-127978,3/3/2019,3/8/2019,Jill Stevenson,Eldon,Eldon Shelf Savers Cubes and Bins,Corporate,Office Supplies,Storage,East,43229,Columbus,Ohio,United States,0.2,-10.0512,8,44.672,-0.225
+US-2020-130421,3/3/2019,3/7/2019,Sam Craven,Other,3.6 Cubic Foot Counter Height Office Refrigerator,Consumer,Office Supplies,Appliances,Central,77095,Houston,Texas,United States,0.8,-459.6072,3,176.772,-2.6
+US-2020-155852,3/3/2019,3/7/2019,Ashley Jarboe,Zebra,Zebra Zazzle Fluorescent Highlighters,Consumer,Office Supplies,Art,South,28403,Wilmington,North Carolina,United States,0.2,3.4048,4,19.456,0.175
+US-2020-116239,3/4/2019,3/4/2019,Clay Ludtke,Other,Sensible Storage WireTech Storage Systems,Consumer,Office Supplies,Storage,South,29203,Columbia,South Carolina,United States,0,17.745,5,354.9,0.05
+US-2020-117016,3/4/2019,3/9/2019,Sanjit Chand,BIC,"BIC Brite Liner Highlighters, Chisel Tip",Consumer,Office Supplies,Art,South,33063,Margate,Florida,United States,0.2,2.3328,3,15.552,0.15
+US-2020-169061,3/5/2019,3/8/2019,Aimee Bixby,Newell,Newell 345,Consumer,Office Supplies,Art,East,10701,Yonkers,New York,United States,0,15.4752,3,59.52,0.26
+US-2020-169061,3/5/2019,3/8/2019,Aimee Bixby,GBC,GBC Wire Binding Combs,Consumer,Office Supplies,Binders,East,10701,Yonkers,New York,United States,0.2,16.7508,6,49.632,0.3375
+US-2020-169061,3/5/2019,3/8/2019,Aimee Bixby,Xerox,Xerox 1891,Consumer,Office Supplies,Paper,East,10701,Yonkers,New York,United States,0,45.9754,2,97.82,0.47
+US-2020-169061,3/5/2019,3/8/2019,Aimee Bixby,Acme,Acme Forged Steel Scissors with Black Enamel Handles,Consumer,Office Supplies,Supplies,East,10701,Yonkers,New York,United States,0,5.3998,2,18.62,0.29
+US-2020-169061,3/5/2019,3/8/2019,Aimee Bixby,Logitech,Logitech Wireless Gaming Headset G930,Consumer,Technology,Accessories,East,10701,Yonkers,New York,United States,0,177.5889,3,479.97,0.37
+US-2020-104563,3/7/2019,3/12/2019,Craig Molinari,Office Star,Office Star - Task Chair with Contemporary Loop Arms,Corporate,Furniture,Chairs,West,98103,Seattle,Washington,United States,0.2,21.8352,6,436.704,0.05
+US-2020-104563,3/7/2019,3/12/2019,Craig Molinari,Global,"Global Leather and Oak Executive Chair, Black",Corporate,Furniture,Chairs,West,98103,Seattle,Washington,United States,0.2,54.1764,2,481.568,0.1125
+US-2020-104563,3/7/2019,3/12/2019,Craig Molinari,Newell,Newell Chalk Holder,Corporate,Office Supplies,Art,West,98103,Seattle,Washington,United States,0,9.499,5,20.65,0.46
+US-2020-104563,3/7/2019,3/12/2019,Craig Molinari,Other,"Contico 72""H Heavy-Duty Storage System",Corporate,Office Supplies,Storage,West,98103,Seattle,Washington,United States,0,0,5,204.9,0
+US-2020-131982,3/7/2019,3/11/2019,Nora Pelletier,Other,Catalog Binders with Expanding Posts,Home Office,Office Supplies,Binders,West,98198,Des Moines,Washington,United States,0.2,33.64,2,107.648,0.3125
+US-2020-156587,3/7/2019,3/8/2019,Aaron Bergman,Global,"Global Push Button Manager's Chair, Indigo",Consumer,Furniture,Chairs,West,98103,Seattle,Washington,United States,0.2,5.4801,1,48.712,0.1125
+US-2020-156587,3/7/2019,3/8/2019,Aaron Bergman,Newell,Newell 330,Consumer,Office Supplies,Art,West,98103,Seattle,Washington,United States,0,4.6644,3,17.94,0.26
+US-2020-156587,3/7/2019,3/8/2019,Aaron Bergman,Carina,"Carina 42""Hx23 3/4""W Media Storage Unit",Consumer,Office Supplies,Storage,West,98103,Seattle,Washington,United States,0,4.8588,3,242.94,0.02
+US-2020-100279,3/10/2019,3/14/2019,Scott Williamson,Other,"Geographics Note Cards, Blank, White, 8 1/2"" x 11""",Consumer,Office Supplies,Paper,Central,48073,Royal Oak,Michigan,United States,0,10.7424,2,22.38,0.48
+US-2020-140116,3/10/2019,3/17/2019,Kean Thornton,Boston,"BOSTON Ranger #55 Pencil Sharpener, Black",Consumer,Office Supplies,Art,West,80219,Denver,Colorado,United States,0.2,9.3564,4,83.168,0.1125
+US-2020-140116,3/10/2019,3/17/2019,Kean Thornton,Tennsco,Tennsco 6- and 18-Compartment Lockers,Consumer,Office Supplies,Storage,West,80219,Denver,Colorado,United States,0.2,-15.9102,3,636.408,-0.025
+US-2020-103338,3/11/2019,3/15/2019,Richard Bierner,Other,Economy #2 Pencils,Consumer,Office Supplies,Art,West,95661,Roseville,California,United States,0,2.0748,3,7.98,0.26
+US-2020-114790,3/11/2019,3/13/2019,Filia McAdams,Fellowes,"Fellowes Premier Superior Surge Suppressor, 10-Outlet, With Phone and Remote",Corporate,Office Supplies,Appliances,South,40475,Richmond,Kentucky,United States,0,38.1576,3,146.76,0.26
+US-2020-114790,3/11/2019,3/13/2019,Filia McAdams,Xerox,Xerox 198,Corporate,Office Supplies,Paper,South,40475,Richmond,Kentucky,United States,0,7.0218,3,14.94,0.47
+US-2020-114790,3/11/2019,3/13/2019,Filia McAdams,Maxell,Maxell DVD-RAM Discs,Corporate,Technology,Accessories,South,40475,Richmond,Kentucky,United States,0,14.1728,2,32.96,0.43
+US-2020-114790,3/11/2019,3/13/2019,Filia McAdams,Panasonic,Panasonic KX-TG9471B,Corporate,Technology,Phones,South,40475,Richmond,Kentucky,United States,0,164.6316,3,587.97,0.28
+US-2020-158337,3/11/2019,3/14/2019,Kelly Andreada,Southworth,"Southworth 100% Résumé Paper, 24lb.",Consumer,Office Supplies,Paper,East,10024,New York City,New York,United States,0,49.014,14,108.92,0.45
+US-2020-166884,3/11/2019,3/16/2019,Chloris Kastensmidt,Eldon,Eldon Wave Desk Accessories,Consumer,Furniture,Furnishings,East,43229,Columbus,Ohio,United States,0.2,2.288,5,8.32,0.275
+US-2020-166884,3/11/2019,3/16/2019,Chloris Kastensmidt,Stockwell,Stockwell Push Pins,Consumer,Office Supplies,Fasteners,East,43229,Columbus,Ohio,United States,0.2,1.7004,6,10.464,0.1625
+US-2020-100293,3/14/2019,3/18/2019,Neil Französisch,Xerox,Xerox 1887,Home Office,Office Supplies,Paper,South,32216,Jacksonville,Florida,United States,0.2,31.8696,6,91.056,0.35
+US-2020-114510,3/14/2019,3/19/2019,Jason Fortune-,GBC,GBC Wire Binding Combs,Consumer,Office Supplies,Binders,West,84321,Logan,Utah,United States,0.2,11.1672,4,33.088,0.3375
+US-2020-114510,3/14/2019,3/19/2019,Jason Fortune-,Other,"Premium Transparent Presentation Covers, No Pattern/Clear, 8 1/2"" x 11""",Consumer,Office Supplies,Binders,West,84321,Logan,Utah,United States,0.2,20.1656,2,62.048,0.325
+US-2020-114510,3/14/2019,3/19/2019,Jason Fortune-,Carina,Carina Double Wide Media Storage Towers in Natural & Black,Consumer,Office Supplies,Storage,West,84321,Logan,Utah,United States,0,3.2392,1,80.98,0.04
+US-2020-114510,3/14/2019,3/19/2019,Jason Fortune-,Staple magnet,Staple magnet,Consumer,Office Supplies,Storage,West,84321,Logan,Utah,United States,0,5.7672,2,21.36,0.27
+US-2020-114510,3/14/2019,3/19/2019,Jason Fortune-,Imation,Imation 30456 USB Flash Drive 8GB,Consumer,Technology,Accessories,West,84321,Logan,Utah,United States,0,6.624,12,82.8,0.08
+US-2020-125521,3/14/2019,3/19/2019,Christine Kargatis,Global,Global Commerce Series High-Back Swivel/Tilt Chairs,Home Office,Furniture,Chairs,South,23320,Chesapeake,Virginia,United States,0,284.98,4,1139.92,0.25
+US-2020-152618,3/14/2019,3/17/2019,Rick Bensley,Xerox,Xerox 1963,Home Office,Office Supplies,Paper,Central,60653,Chicago,Illinois,United States,0.2,2.64,2,8.448,0.3125
+US-2020-152618,3/14/2019,3/17/2019,Rick Bensley,Hewlett-Packard,Hewlett-Packard Deskjet 6540 Color Inkjet Printer,Home Office,Technology,Machines,Central,60653,Chicago,Illinois,United States,0.3,156.047,2,574.91,0.271428571
+US-2020-157623,3/14/2019,3/18/2019,Dean Katz,Avery,Avery Hi-Liter Fluorescent Desk Style Markers,Corporate,Office Supplies,Art,West,92646,Huntington Beach,California,United States,0,1.2506,1,3.38,0.37
+US-2020-157623,3/14/2019,3/18/2019,Dean Katz,Xerox,Xerox 1972,Corporate,Office Supplies,Paper,West,92646,Huntington Beach,California,United States,0,4.752,2,10.56,0.45
+US-2020-149958,3/15/2019,3/19/2019,Alan Shonely,Eldon,"Eldon Expressions Desk Accessory, Wood Photo Frame, Mahogany",Consumer,Furniture,Furnishings,South,33614,Tampa,Florida,United States,0.2,5.1408,3,45.696,0.1125
+US-2020-149958,3/15/2019,3/19/2019,Alan Shonely,Other,Insertable Tab Post Binder Dividers,Consumer,Office Supplies,Binders,South,33614,Tampa,Florida,United States,0.7,-5.5338,3,7.218,-0.766666667
+US-2020-149958,3/15/2019,3/19/2019,Alan Shonely,GBC,GBC VeloBinder Manual Binding System,Consumer,Office Supplies,Binders,South,33614,Tampa,Florida,United States,0.7,-31.6712,4,43.188,-0.733333333
+US-2020-149958,3/15/2019,3/19/2019,Alan Shonely,Xerox,Xerox 1889,Consumer,Office Supplies,Paper,South,33614,Tampa,Florida,United States,0.2,47.8152,3,131.904,0.3625
+US-2020-149958,3/15/2019,3/19/2019,Alan Shonely,Other,"Hot File 7-Pocket, Floor Stand",Consumer,Office Supplies,Storage,South,33614,Tampa,Florida,United States,0.2,17.847,1,142.776,0.125
+US-2020-157609,3/16/2019,3/21/2019,Kristina Nunn,Polycom,Polycom VoiceStation 500 Conference phone,Home Office,Technology,Phones,South,27604,Raleigh,North Carolina,United States,0.2,29.495,2,471.92,0.0625
+US-2020-118339,3/17/2019,3/24/2019,Bradley Nguyen,Bionaire,Bionaire Personal Warm Mist Humidifier/Vaporizer,Consumer,Office Supplies,Appliances,Central,55044,Lakeville,Minnesota,United States,0,36.5742,2,93.78,0.39
+US-2020-118339,3/17/2019,3/24/2019,Bradley Nguyen,Newell,Newell 35,Consumer,Office Supplies,Art,Central,55044,Lakeville,Minnesota,United States,0,5.7072,6,19.68,0.29
+US-2020-118339,3/17/2019,3/24/2019,Bradley Nguyen,Avery,Avery Non-Stick Heavy Duty View Round Locking Ring Binders,Consumer,Office Supplies,Binders,Central,55044,Lakeville,Minnesota,United States,0,17.2224,6,35.88,0.48
+US-2020-118339,3/17/2019,3/24/2019,Bradley Nguyen,Wilson Jones,Wilson Jones 14 Line Acrylic Coated Pressboard Data Binders,Consumer,Office Supplies,Binders,Central,55044,Lakeville,Minnesota,United States,0,25.098,10,53.4,0.47
+US-2020-118339,3/17/2019,3/24/2019,Bradley Nguyen,Other,"Memo Book, 100 Message Capacity, 5 3/8” x 11”",Consumer,Office Supplies,Paper,Central,55044,Lakeville,Minnesota,United States,0,23.59,7,47.18,0.5
+US-2020-127859,3/17/2019,3/20/2019,Quincy Jones,Xerox,Xerox 1909,Corporate,Office Supplies,Paper,East,19134,Philadelphia,Pennsylvania,United States,0.2,41.1528,6,126.624,0.325
+US-2020-148838,3/17/2019,3/21/2019,Christine Phan,Balt,Balt Solid Wood Round Tables,Corporate,Furniture,Tables,East,10024,New York City,New York,United States,0.4,-553.6476,4,1071.576,-0.516666667
+US-2020-148838,3/17/2019,3/21/2019,Christine Phan,Bretford,Bretford Rectangular Conference Table Tops,Corporate,Furniture,Tables,East,10024,New York City,New York,United States,0.4,-447.5947,7,1579.746,-0.283333333
+US-2020-148838,3/17/2019,3/21/2019,Christine Phan,Hon,"Hon 30"" x 60"" Table with Locking Drawer",Corporate,Furniture,Tables,East,10024,New York City,New York,United States,0.4,-122.7816,3,613.908,-0.2
+US-2020-148838,3/17/2019,3/21/2019,Christine Phan,Xerox,Xerox 1918,Corporate,Office Supplies,Paper,East,10024,New York City,New York,United States,0,75.9696,4,155.04,0.49
+US-2020-148838,3/17/2019,3/21/2019,Christine Phan,Xerox,Xerox 1926,Corporate,Office Supplies,Paper,East,10024,New York City,New York,United States,0,16.3842,7,34.86,0.47
+US-2020-158442,3/17/2019,3/17/2019,Annie Zypern,Newell,Newell 333,Consumer,Office Supplies,Art,Central,75217,Dallas,Texas,United States,0.2,0.3336,2,4.448,0.075
+US-2020-158442,3/17/2019,3/17/2019,Annie Zypern,Xerox,Xerox 1966,Consumer,Office Supplies,Paper,Central,75217,Dallas,Texas,United States,0.2,1.8792,1,5.184,0.3625
+US-2020-158442,3/17/2019,3/17/2019,Annie Zypern,Xerox,Xerox 1967,Consumer,Office Supplies,Paper,Central,75217,Dallas,Texas,United States,0.2,5.4432,3,15.552,0.35
+US-2020-164763,3/17/2019,3/21/2019,Mark Haberlin,Belkin,Belkin 6 Outlet Metallic Surge Strip,Corporate,Office Supplies,Appliances,South,39212,Jackson,Mississippi,United States,0,8.4942,3,32.67,0.26
+US-2020-164763,3/17/2019,3/21/2019,Mark Haberlin,GBC,"GBC Twin Loop Wire Binding Elements, 9/16"" Spine, Black",Corporate,Office Supplies,Binders,South,39212,Jackson,Mississippi,United States,0,14.9156,2,30.44,0.49
+US-2020-164763,3/17/2019,3/21/2019,Mark Haberlin,Acco,"Acco Pressboard Covers with Storage Hooks, 9 1/2"" x 11"", Executive Red",Corporate,Office Supplies,Binders,South,39212,Jackson,Mississippi,United States,0,5.3721,3,11.43,0.47
+US-2020-164763,3/17/2019,3/21/2019,Mark Haberlin,Other,EcoTones Memo Sheets,Corporate,Office Supplies,Paper,South,39212,Jackson,Mississippi,United States,0,7.68,4,16,0.48
+US-2020-164763,3/17/2019,3/21/2019,Mark Haberlin,Xerox,Xerox 1957,Corporate,Office Supplies,Paper,South,39212,Jackson,Mississippi,United States,0,6.3504,2,12.96,0.49
+US-2020-111871,3/18/2019,3/21/2019,Eileen Kiefer,Bush,"Bush Heritage Pine Collection 5-Shelf Bookcase, Albany Pine Finish, *Special Order",Home Office,Furniture,Bookcases,West,94110,San Francisco,California,United States,0.15,70.49,10,1198.33,0.058823529
+US-2020-131275,3/18/2019,3/24/2019,Sample Company A,Eldon,Eldon Cleatmat Chair Mats for Medium Pile Carpets,Home Office,Furniture,Furnishings,West,91505,Burbank,California,United States,0,14.43,2,111,0.13
+US-2020-131275,3/18/2019,3/24/2019,Sample Company A,Tennsco,Tennsco 6- and 18-Compartment Lockers,Home Office,Office Supplies,Storage,West,91505,Burbank,California,United States,0,334.1142,7,1856.19,0.18
+US-2020-131275,3/18/2019,3/24/2019,Sample Company A,Other,Swingline SM12-08 MicroCut Jam Free Shredder,Home Office,Technology,Machines,West,91505,Burbank,California,United States,0.2,415.9896,4,1279.968,0.325
+US-2020-145317,3/18/2019,3/23/2019,Sean Miller,Dana,"Dana Fluorescent Magnifying Lamp, White, 36""",Home Office,Furniture,Furnishings,South,32216,Jacksonville,Florida,United States,0.2,15.294,3,122.352,0.125
+US-2020-145317,3/18/2019,3/23/2019,Sean Miller,Executive Impressions,"Executive Impressions 13"" Clairmont Wall Clock",Home Office,Furniture,Furnishings,South,32216,Jacksonville,Florida,United States,0.2,8.0766,2,30.768,0.2625
+US-2020-145317,3/18/2019,3/23/2019,Sean Miller,Avery,Avery Fluorescent Highlighter Four-Color Set,Home Office,Office Supplies,Art,South,32216,Jacksonville,Florida,United States,0.2,1.002,3,8.016,0.125
+US-2020-145317,3/18/2019,3/23/2019,Sean Miller,Other,Staples,Home Office,Office Supplies,Fasteners,South,32216,Jacksonville,Florida,United States,0.2,5.9175,3,18.936,0.3125
+US-2020-145317,3/18/2019,3/23/2019,Sean Miller,Xerox,Xerox 195,Home Office,Office Supplies,Paper,South,32216,Jacksonville,Florida,United States,0.2,7.4816,4,21.376,0.35
+US-2020-145317,3/18/2019,3/23/2019,Sean Miller,Cisco,Cisco TelePresence System EX90 Videoconferencing Unit,Home Office,Technology,Machines,South,32216,Jacksonville,Florida,United States,0.5,-1811.0784,6,22638.48,-0.08
+US-2020-145317,3/18/2019,3/23/2019,Sean Miller,Hewlett-Packard,Hewlett-Packard Deskjet 6540 Color Inkjet Printer,Home Office,Technology,Machines,South,32216,Jacksonville,Florida,United States,0.5,-16.426,4,821.3,-0.02
+US-2020-103989,3/19/2019,3/21/2019,Matt Connell,Other,Document Clip Frames,Corporate,Furniture,Furnishings,South,33801,Lakeland,Florida,United States,0.2,5.5044,3,20.016,0.275
+US-2020-103989,3/19/2019,3/21/2019,Matt Connell,Eldon,Eldon Wave Desk Accessories,Corporate,Furniture,Furnishings,South,33801,Lakeland,Florida,United States,0.2,1.3728,3,4.992,0.275
+US-2020-103989,3/19/2019,3/21/2019,Matt Connell,Avery,"Avery Flip-Chart Easel Binder, Black",Corporate,Office Supplies,Binders,South,33801,Lakeland,Florida,United States,0.7,-25.737,5,33.57,-0.766666667
+US-2020-103989,3/19/2019,3/21/2019,Matt Connell,Avery,Avery 501,Corporate,Office Supplies,Labels,South,33801,Lakeland,Florida,United States,0.2,3.9852,4,11.808,0.3375
+US-2020-103989,3/19/2019,3/21/2019,Matt Connell,Other,Crate-A-Files,Corporate,Office Supplies,Storage,South,33801,Lakeland,Florida,United States,0.2,1.962,3,26.16,0.075
+US-2020-103989,3/19/2019,3/21/2019,Matt Connell,Logitech,"Logitech Wireless Boombox Speaker - portable - wireless, wired",Corporate,Technology,Accessories,South,33801,Lakeland,Florida,United States,0.2,53.2,2,170.24,0.3125
+US-2020-103989,3/19/2019,3/21/2019,Matt Connell,Cisco,Cisco 8x8 Inc. 6753i IP Business Phone System,Corporate,Technology,Phones,South,33801,Lakeland,Florida,United States,0.2,28.3479,3,323.976,0.0875
+US-2020-107405,3/21/2019,3/25/2019,Thomas Seio,Tennsco,Tennsco Commercial Shelving,Corporate,Office Supplies,Storage,South,28806,Asheville,North Carolina,United States,0.2,-3.8646,1,16.272,-0.2375
+US-2020-140004,3/21/2019,3/25/2019,Cassandra Brandow,Binney & Smith,"Binney & Smith inkTank Erasable Desk Highlighter, Chisel Tip, Yellow, 12/Box",Consumer,Office Supplies,Art,East,45011,Hamilton,Ohio,United States,0.2,1.5876,3,6.048,0.2625
+US-2020-140004,3/21/2019,3/25/2019,Cassandra Brandow,Binney & Smith,"Binney & Smith Crayola Metallic Colored Pencils, 8-Color Set",Consumer,Office Supplies,Art,East,45011,Hamilton,Ohio,United States,0.2,1.2038,2,7.408,0.1625
+US-2020-155544,3/21/2019,3/25/2019,Gary McGarr,Global,Global Highback Leather Tilter in Burgundy,Consumer,Furniture,Chairs,South,37918,Knoxville,Tennessee,United States,0.2,-10.9188,3,218.376,-0.05
+US-2020-155544,3/21/2019,3/25/2019,Gary McGarr,DAX,DAX Wood Document Frame,Consumer,Furniture,Furnishings,South,37918,Knoxville,Tennessee,United States,0.2,6.5904,3,32.952,0.2
+US-2020-155544,3/21/2019,3/25/2019,Gary McGarr,Avery,Avery 505,Consumer,Office Supplies,Labels,South,37918,Knoxville,Tennessee,United States,0.2,22.2,5,59.2,0.375
+US-2020-163223,3/21/2019,3/25/2019,Kristen Hastings,Other,American Pencil,Corporate,Office Supplies,Art,South,22153,Springfield,Virginia,United States,0,2.7028,4,9.32,0.29
+US-2020-163223,3/21/2019,3/25/2019,Kristen Hastings,Wilson Jones,"Wilson Jones Ledger-Size, Piano-Hinge Binder, 2"", Blue",Corporate,Office Supplies,Binders,South,22153,Springfield,Virginia,United States,0,59.0112,3,122.94,0.48
+US-2020-163223,3/21/2019,3/25/2019,Kristen Hastings,Avery,Avery 492,Corporate,Office Supplies,Labels,South,22153,Springfield,Virginia,United States,0,6.624,5,14.4,0.46
+US-2020-163223,3/21/2019,3/25/2019,Kristen Hastings,Xerox,Xerox 1919,Corporate,Office Supplies,Paper,South,22153,Springfield,Virginia,United States,0,60.2553,3,122.97,0.49
+US-2020-163223,3/21/2019,3/25/2019,Kristen Hastings,Samsung,Samsung Galaxy S4 Active,Corporate,Technology,Phones,South,22153,Springfield,Virginia,United States,0,909.9818,7,3499.93,0.26
+US-2020-129609,3/22/2019,3/22/2019,Vivian Mathis,Avery,"Avery Hi-Liter EverBold Pen Style Fluorescent Highlighters, 4/Pack",Consumer,Office Supplies,Art,Central,46368,Portage,Indiana,United States,0,6.512,2,16.28,0.4
+US-2020-148040,3/22/2019,3/26/2019,Beth Fritzler,Office Star,Office Star - Mesh Screen back chair with Vinyl seat,Corporate,Furniture,Chairs,West,85705,Tucson,Arizona,United States,0.2,-35.3646,3,314.352,-0.1125
+US-2020-148040,3/22/2019,3/26/2019,Beth Fritzler,Xerox,Xerox 1951,Corporate,Office Supplies,Paper,West,85705,Tucson,Arizona,United States,0.2,23.235,3,74.352,0.3125
+US-2020-158057,3/22/2019,3/26/2019,Craig Carroll,GBC,GBC Prestige Therm-A-Bind Covers,Consumer,Office Supplies,Binders,South,27405,Greensboro,North Carolina,United States,0.7,-39.4565,5,51.465,-0.766666667
+US-2020-158057,3/22/2019,3/26/2019,Craig Carroll,C-Line,"C-Line Peel & Stick Add-On Filing Pockets, 8-3/4 x 5-1/8, 10/Pack",Consumer,Office Supplies,Binders,South,27405,Greensboro,North Carolina,United States,0.7,-5.8604,4,7.644,-0.766666667
+US-2020-120838,3/23/2019,3/26/2019,Patrick O'Donnell,Other,Economy Rollaway Files,Consumer,Office Supplies,Storage,West,90036,Los Angeles,California,United States,0,85.904,2,330.4,0.26
+US-2020-120838,3/23/2019,3/26/2019,Patrick O'Donnell,Other,Ooma Telo VoIP Home Phone System,Consumer,Technology,Phones,West,90036,Los Angeles,California,United States,0.2,37.797,6,604.752,0.0625
+US-2020-164749,3/23/2019,3/26/2019,Bruce Geld,Avery,Avery 476,Consumer,Office Supplies,Labels,South,33445,Delray Beach,Florida,United States,0.2,3.2214,3,9.912,0.325
+US-2020-143637,3/24/2019,3/29/2019,Maurice Satty,DAX,"DAX Contemporary Wood Frame with Silver Metal Mat, Desktop, 11 x 14 Size",Consumer,Furniture,Furnishings,West,93727,Fresno,California,United States,0,14.5728,2,40.48,0.36
+US-2020-147235,3/24/2019,3/28/2019,Carlos Daly,Xerox,Xerox 190,Consumer,Office Supplies,Paper,East,10024,New York City,New York,United States,0,11.703,5,24.9,0.47
+US-2020-128237,3/25/2019,3/30/2019,Christina Anderson,BIC,"BIC Brite Liner Grip Highlighters, Assorted, 5/Pack",Consumer,Office Supplies,Art,West,94110,San Francisco,California,United States,0,9.9216,6,25.44,0.39
+US-2020-128237,3/25/2019,3/30/2019,Christina Anderson,Other,"Eberhard Faber 3 1/2"" Golf Pencils",Consumer,Office Supplies,Art,West,94110,San Francisco,California,United States,0,3.72,2,14.88,0.25
+US-2020-128237,3/25/2019,3/30/2019,Christina Anderson,Newell,Newell 35,Consumer,Office Supplies,Art,West,94110,San Francisco,California,United States,0,1.9024,2,6.56,0.29
+US-2020-128237,3/25/2019,3/30/2019,Christina Anderson,Imation,Imation Swivel Flash Drive USB flash drive - 8 GB,Consumer,Technology,Accessories,West,94110,San Francisco,California,United States,0,15.918,4,45.48,0.35
+US-2020-148586,3/25/2019,4/1/2019,Annie Zypern,Iceberg,"Iceberg Nesting Folding Chair, 19w x 6d x 43h",Consumer,Furniture,Chairs,East,10009,New York City,New York,United States,0.1,65.2064,7,366.786,0.177777778
+US-2020-100860,3/26/2019,3/30/2019,Cindy Stewart,Smead,Smead Alpha-Z Color-Coded Name Labels First Letter Starter Set,Consumer,Office Supplies,Labels,West,91767,Pomona,California,United States,0,9,5,18.75,0.48
+US-2020-138436,3/26/2019,3/30/2019,Jonathan Doherty,SanDisk,SanDisk Ultra 32 GB MicroSDHC Class 10 Memory Card,Corporate,Technology,Accessories,West,90036,Los Angeles,California,United States,0,8.619,3,66.3,0.13
+US-2020-141838,3/26/2019,3/31/2019,Damala Kotsonis,Newell,Newell 308,Corporate,Office Supplies,Art,West,94122,San Francisco,California,United States,0,0.84,2,3.36,0.25
+US-2020-141838,3/26/2019,3/31/2019,Damala Kotsonis,Wilson Jones,Wilson Jones Leather-Like Binders with DublLock Round Rings,Corporate,Office Supplies,Binders,West,94122,San Francisco,California,United States,0.2,9.4284,4,27.936,0.3375
+US-2020-141838,3/26/2019,3/31/2019,Damala Kotsonis,Griffin,Griffin GC17055 Auxiliary Audio Cable,Corporate,Technology,Phones,West,94122,San Francisco,California,United States,0.2,2.8784,2,28.784,0.1
+US-2020-100881,3/28/2019,4/1/2019,Daniel Raglin,AT&T,AT&T TR1909W,Home Office,Technology,Phones,West,87105,Albuquerque,New Mexico,United States,0.2,22.6782,3,302.376,0.075
+US-2020-117380,3/28/2019,4/3/2019,Mike Pelletier,Chromcraft,Chromcraft Bull-Nose Wood Oval Conference Tables & Bases,Home Office,Furniture,Tables,East,45503,Springfield,Ohio,United States,0.4,-143.2548,1,330.588,-0.433333333
+US-2020-137869,3/28/2019,4/2/2019,Christina VanderZanden,Hon,Hon 94000 Series Round Tables,Consumer,Furniture,Tables,Central,50315,Des Moines,Iowa,United States,0,106.6248,4,1184.72,0.09
+US-2020-137869,3/28/2019,4/2/2019,Christina VanderZanden,Poly,Poly String Tie Envelopes,Consumer,Office Supplies,Envelopes,Central,50315,Des Moines,Iowa,United States,0,2.8764,3,6.12,0.47
+US-2020-137274,3/29/2019,4/2/2019,Mike Gockenbach,Bush,Bush Advantage Collection Racetrack Conference Table,Consumer,Furniture,Tables,Central,75023,Plano,Texas,United States,0.3,-152.7156,3,890.841,-0.171428571
+US-2020-105151,3/30/2019,3/31/2019,Susan Gilcrest,Sanford,"Sanford EarthWrite Recycled Pencils, Medium Soft, #2",Corporate,Office Supplies,Art,East,10009,New York City,New York,United States,0,2.94,5,10.5,0.28
+US-2020-113124,3/30/2019,4/5/2019,Nat Carroll,Space Solutions,Space Solutions Commercial Steel Shelving,Consumer,Office Supplies,Storage,Central,55124,Apple Valley,Minnesota,United States,0,6.465,2,129.3,0.05
+US-2020-131247,3/30/2019,4/4/2019,Guy Armstrong,O'Sullivan,O'Sullivan Living Dimensions 2-Shelf Bookcases,Consumer,Furniture,Bookcases,West,94110,San Francisco,California,United States,0.15,-12.098,2,205.666,-0.058823529
+US-2020-133424,3/30/2019,4/4/2019,Dorris liebe,Avery,Avery 490,Corporate,Office Supplies,Labels,West,98105,Seattle,Washington,United States,0,22.2,3,44.4,0.5
+US-2020-133424,3/30/2019,4/4/2019,Dorris liebe,Sterilite,Sterilite Show Offs Storage Containers,Corporate,Office Supplies,Storage,West,98105,Seattle,Washington,United States,0,0,3,15.84,0
+US-2020-162089,3/30/2019,4/1/2019,Mark Packer,Global,"Global Stack Chair without Arms, Black",Home Office,Furniture,Chairs,Central,78521,Brownsville,Texas,United States,0.3,-9.093,7,127.302,-0.071428571
+US-2020-162089,3/30/2019,4/1/2019,Mark Packer,Other,Airmail Envelopes,Home Office,Office Supplies,Envelopes,Central,78521,Brownsville,Texas,United States,0.2,113.3055,5,335.72,0.3375
+US-2020-162089,3/30/2019,4/1/2019,Mark Packer,Other,Innergie mMini Combo Duo USB Travel Charging Kit,Home Office,Technology,Phones,Central,78521,Brownsville,Texas,United States,0.2,88.1804,7,251.944,0.35
+US-2020-169033,3/30/2019,4/3/2019,Kunst Miller,Other,Peel-Off China Markers,Consumer,Office Supplies,Art,East,11561,Long Beach,New York,United States,0,20.853,5,49.65,0.42
+US-2020-101770,3/31/2019,4/4/2019,Karen Bern,Avery,Avery Hole Reinforcements,Corporate,Office Supplies,Binders,South,33180,Miami,Florida,United States,0.7,-1.3083,1,1.869,-0.7
+US-2020-104759,3/31/2019,4/4/2019,Dorothy Dickinson,Fellowes,Fellowes Black Plastic Comb Bindings,Consumer,Office Supplies,Binders,Central,60610,Chicago,Illinois,United States,0.8,-13.8278,7,8.134,-1.7
+US-2020-104759,3/31/2019,4/4/2019,Dorothy Dickinson,Kensington,Kensington SlimBlade Notebook Wireless Mouse with Nano Receiver,Consumer,Technology,Accessories,Central,60610,Chicago,Illinois,United States,0.2,13.9972,2,79.984,0.175
+US-2020-112403,3/31/2019,3/31/2019,Jas O'Carroll,Avery,Avery Round Ring Poly Binders,Consumer,Office Supplies,Binders,East,19120,Philadelphia,Pennsylvania,United States,0.7,-0.5964,1,0.852,-0.7
+US-2020-128055,3/31/2019,4/5/2019,Alex Avila,Fellowes,Fellowes Advanced Computer Series Surge Protectors,Consumer,Office Supplies,Appliances,West,94122,San Francisco,California,United States,0,14.8344,2,52.98,0.28
+US-2020-128055,3/31/2019,4/5/2019,Alex Avila,GBC,GBC DocuBind 200 Manual Binding Machine,Consumer,Office Supplies,Binders,West,94122,San Francisco,California,United States,0.2,252.588,2,673.568,0.375
+US-2020-130428,3/31/2019,3/31/2019,Trudy Glocke,Global,"Global Leather Highback Executive Chair with Pneumatic Height Adjustment, Black",Consumer,Furniture,Chairs,South,33614,Tampa,Florida,United States,0.2,98.4802,7,1125.488,0.0875
+US-2020-130428,3/31/2019,3/31/2019,Trudy Glocke,Binney & Smith,"Binney & Smith inkTank Erasable Desk Highlighter, Chisel Tip, Yellow, 12/Box",Consumer,Office Supplies,Art,South,33614,Tampa,Florida,United States,0.2,1.0584,2,4.032,0.2625
+US-2020-130428,3/31/2019,3/31/2019,Trudy Glocke,Ibico,Ibico Plastic and Wire Spiral Binding Combs,Consumer,Office Supplies,Binders,South,33614,Tampa,Florida,United States,0.7,-10.116,5,12.645,-0.8
+US-2020-138359,4/1/2019,4/6/2019,Katharine Harms,Other,Zipper Ring Binder Pockets,Corporate,Office Supplies,Binders,East,2151,Revere,Massachusetts,United States,0,3.0576,2,6.24,0.49
+US-2020-138359,4/1/2019,4/6/2019,Katharine Harms,Rogers,Rogers Profile Extra Capacity Storage Tub,Corporate,Office Supplies,Storage,East,2151,Revere,Massachusetts,United States,0,2.6784,4,66.96,0.04
+US-2020-157021,4/1/2019,4/6/2019,Kunst Miller,Pressboard,"Pressboard Data Binder, Crimson, 12"" X 8 1/2""",Consumer,Office Supplies,Binders,West,94591,Vallejo,California,United States,0.2,5.5536,4,17.088,0.325
+US-2020-157021,4/1/2019,4/6/2019,Kunst Miller,Avery,Avery 490,Consumer,Office Supplies,Labels,West,94591,Vallejo,California,United States,0,14.8,2,29.6,0.5
+US-2020-157847,4/2/2019,4/6/2019,Sam Craven,Xerox,Xerox 1947,Consumer,Office Supplies,Paper,Central,77095,Houston,Texas,United States,0.2,10.465,7,33.488,0.3125
+US-2020-157847,4/2/2019,4/6/2019,Sam Craven,Xerox,Xerox 1898,Consumer,Office Supplies,Paper,Central,77095,Houston,Texas,United States,0.2,9.352,5,26.72,0.35
+US-2020-160276,4/2/2019,4/8/2019,Anna Häberlin,Luxo,Luxo Adjustable Task Clamp Lamp,Corporate,Furniture,Furnishings,South,23464,Virginia Beach,Virginia,United States,0,46.1968,2,177.68,0.26
+US-2020-164315,4/2/2019,4/8/2019,Rob Dowd,Euro Pro,Euro-Pro Shark Turbo Vacuum,Consumer,Office Supplies,Appliances,South,30605,Athens,Georgia,United States,0,40.274,5,154.9,0.26
+US-2020-164315,4/2/2019,4/8/2019,Rob Dowd,Xerox,Xerox 1990,Consumer,Office Supplies,Paper,South,30605,Athens,Georgia,United States,0,7.128,3,15.84,0.45
+US-2020-164315,4/2/2019,4/8/2019,Rob Dowd,Motorola,Motorola Droid Maxx,Consumer,Technology,Phones,South,30605,Athens,Georgia,United States,0,293.9804,7,1049.93,0.28
+US-2020-112291,4/3/2019,4/8/2019,Katrina Edelman,Staple envelope,Staple envelope,Corporate,Office Supplies,Envelopes,West,90008,Los Angeles,California,United States,0,5.58,2,11.16,0.5
+US-2020-112291,4/3/2019,4/8/2019,Katrina Edelman,Logitech,Logitech G600 MMO Gaming Mouse,Corporate,Technology,Accessories,West,90008,Los Angeles,California,United States,0,57.5928,2,159.98,0.36
+US-2020-112291,4/3/2019,4/8/2019,Katrina Edelman,Enermax,Enermax Briskie RF Wireless Keyboard and Mouse Combo,Corporate,Technology,Accessories,West,90008,Los Angeles,California,United States,0,22.4316,3,62.31,0.36
+US-2020-105172,4/4/2019,4/9/2019,Paul Knutson,Avery,Avery 518,Home Office,Office Supplies,Labels,West,94109,San Francisco,California,United States,0,9.072,6,18.9,0.48
+US-2020-128685,4/4/2019,4/5/2019,Mary Zewe,Avery,Avery Non-Stick Binders,Corporate,Office Supplies,Binders,West,90008,Los Angeles,California,United States,0.2,2.245,2,7.184,0.3125
+US-2020-133228,4/4/2019,4/9/2019,Maurice Satty,Advantus,Advantus Panel Wall Acrylic Frame,Consumer,Furniture,Furnishings,Central,48205,Detroit,Michigan,United States,0,2.3521,1,5.47,0.43
+US-2020-133228,4/4/2019,4/9/2019,Maurice Satty,Newell,Newell 319,Consumer,Office Supplies,Art,Central,48205,Detroit,Michigan,United States,0,23.808,4,79.36,0.3

@@ -1,0 +1,6 @@
+pymysql
+pymongo
+seaborn
+plotly
+fpdf
+customtkinter

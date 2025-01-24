@@ -3,6 +3,9 @@ import pandas as pd
 from db import *  # Ensure this module contains `import_from_mysql`, `import_from_csv`, `import_from_mongo`
 from tkinter import filedialog, messagebox
 import threading
+from data_cleaning import clean_data
+from loading import upload_to_postgresql  # Import the function to upload data to PostgreSQL
+import uuid  # Add import for uuid
 
 # Initialize the app
 app = CTk()
@@ -30,6 +33,7 @@ checkbox_mongo = CTkCheckBox(content_frame, text="MongoDB Data", state="disabled
 
 # Initialize merged data storage and display
 merged_data = pd.DataFrame()
+extracted_data = pd.DataFrame()
 merged_data_display = CTkTextbox(content_frame, width=400, height=200, state="disabled")
 
 
@@ -67,8 +71,7 @@ def show_content(section_name):
         if widget not in [checkbox_mysql, checkbox_csv, checkbox_mongo, merged_data_display]:
             widget.destroy()  # Clear previous content except checkboxes and merged data display
 
-    if section_name == "Data Ingestion":
-        # Add buttons for data ingestion
+    if section_name == "Extraction":
         btn_mysql = CTkButton(content_frame, text="Import from MySQL", command=lambda: threading.Thread(target=load_mysql_data).start())
         btn_mysql.grid(row=3, column=0, pady=10, padx=20)
 
@@ -84,6 +87,16 @@ def show_content(section_name):
         # Show checkboxes and merged data display
         show_checkboxes()
         update_merged_data_display()
+    elif section_name == "Transform & Load":
+        btn_clean_data = CTkButton(content_frame, text="Clean Data", command=lambda: clean_data(extracted_data, update_merged_data_display))
+        btn_clean_data.grid(row=3, column=0, pady=10, padx=20)
+        
+        btn_load_data = CTkButton(content_frame, text="Load Data to DWH", command=lambda: threading.Thread(target=load_data_to_dwh).start())
+        btn_load_data.grid(row=4, column=0, pady=10, padx=20)
+        
+        # Show checkboxes and merged data display
+        show_checkboxes()
+        update_merged_data_display()
     else:
         hide_checkboxes()
         label = CTkLabel(content_frame, text=f"Welcome to {section_name} Section")
@@ -91,7 +104,7 @@ def show_content(section_name):
 
 
 def load_csv_data():
-    global merged_data
+    global merged_data, extracted_data
     file_path = filedialog.askopenfilename(title="Select CSV File", filetypes=[("CSV Files", "*.csv")])
     if file_path:
         try:
@@ -99,6 +112,7 @@ def load_csv_data():
             if csv_data is not None:
                 checkbox_csv.select()
                 merged_data = pd.concat([merged_data, csv_data], ignore_index=True)
+                extracted_data = merged_data.copy()
                 update_merged_data_display()
                 messagebox.showinfo("Success", "CSV Data Loaded Successfully!")
         except Exception as e:
@@ -106,12 +120,13 @@ def load_csv_data():
 
 
 def load_mysql_data():
-    global merged_data
+    global merged_data, extracted_data
     try:
         mysql_data = import_from_mysql()
         if mysql_data is not None:
             checkbox_mysql.select()
             merged_data = pd.concat([merged_data, mysql_data], ignore_index=True)
+            extracted_data = merged_data.copy()
             update_merged_data_display()
             messagebox.showinfo("Success", "MySQL Data Loaded Successfully!")
     except Exception as e:
@@ -119,30 +134,66 @@ def load_mysql_data():
 
 
 def load_mongo_data():
-    global merged_data
+    global merged_data, extracted_data
     try:
         mongo_data = import_from_mongo("mydb", "mycollection")  # Replace with your DB/collection
         if mongo_data is not None:
             checkbox_mongo.select()
             merged_data = pd.concat([merged_data, mongo_data], ignore_index=True)
+            extracted_data = merged_data.copy()
             update_merged_data_display()
             messagebox.showinfo("Success", "MongoDB Data Loaded Successfully!")
+            # Print the extracted data
+            print("Extracted Data:")
+            print(extracted_data)
     except Exception as e:
         messagebox.showerror("Error", f"An error occurred while loading MongoDB data: {e}")
+
+
+def load_data_to_dwh():
+    global extracted_data  # Ensure we use the global extracted_data
+    if extracted_data.empty:
+        messagebox.showerror("Error", "No data to load into the data warehouse.")
+        return
+
+    # Ensure the customer_id column exists and is of type uuid
+    if 'customer_id' not in extracted_data.columns:
+        extracted_data['customer_id'] = [str(uuid.uuid4()) for _ in range(len(extracted_data))]
+
+    # DWH server details from loading.py
+    server = "localhost"
+    database = "Sales"
+    username = "postgres"
+    password = "pokemongo"
+    
+    # Upload data to DWH
+    try:
+        upload_to_dwh(extracted_data, server, database, username, password)
+        messagebox.showinfo("Success", "Data loaded to the data warehouse successfully!")
+    except Exception as e:
+        messagebox.showerror("Error", f"Error loading data to PostgreSQL: {e}")
+
+
+def upload_to_dwh(data, server, database, username, password):
+    try:
+        upload_to_postgresql(data, server, "5432", database, username, password)
+        messagebox.showinfo("Success", "Data loaded to DWH successfully!")
+    except Exception as e:
+        messagebox.showerror("Error", f"An error occurred while loading data to DWH: {e}")
 
 
 # Add navigation buttons
 btn_home = CTkButton(nav_frame, text="Home", command=lambda: show_content("Home"))
 btn_home.grid(row=0, column=0, pady=10, padx=20)
 
-btn_about = CTkButton(nav_frame, text="Data Ingestion", command=lambda: show_content("Data Ingestion"))
+btn_about = CTkButton(nav_frame, text="Extraction", command=lambda: show_content("Extraction"))
 btn_about.grid(row=1, column=0, pady=10, padx=20)
 
-btn_settings = CTkButton(nav_frame, text="Settings", command=lambda: show_content("Settings"))
-btn_settings.grid(row=2, column=0, pady=10, padx=20)
+btn_TL = CTkButton(nav_frame, text="Transform & Load", command=lambda: show_content("Transform & Load"))
+btn_TL.grid(row=2, column=0, pady=10, padx=20)
 
-btn_help = CTkButton(nav_frame, text="Help", command=lambda: show_content("Help"))
-btn_help.grid(row=3, column=0, pady=10, padx=20)
+btn_DA = CTkButton(nav_frame, text="Data Analysis", command=lambda: show_content("Data Analysis"))
+btn_DA.grid(row=3, column=0, pady=10, padx=20)
 
 btn_exit = CTkButton(nav_frame, text="Exit", fg_color="red", command=app.quit)
 btn_exit.grid(row=4, column=0, pady=10, padx=20)

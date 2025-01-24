@@ -4,3 +4,6 @@ seaborn
 plotly
 fpdf
 customtkinter
+pyodbc
+pandas
+psycopg2

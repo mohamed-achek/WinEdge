@@ -1,28 +1,8 @@
 ﻿order_id,order_date,ship_date,customer,manufactory,product_name,segment,category,subcategory,region,zip,city,state,country,discount,profit,quantity,sales,profit_margin
-US-2020-103800,1/3/2019,1/7/2019,Darren Powers,Message Book,"Message Book, Wirebound, Four 5 1/2"" X 4"" Forms/Pg., 200 Dupl. Sets/Book",Consumer,Office Supplies,Paper,Central,77095,Houston,Texas,United States,0.2,5.5512,2,16.448,0.3375
-US-2020-112326,1/4/2019,1/8/2019,Phillina Ober,GBC,GBC Standard Plastic Binding Systems Combs,Home Office,Office Supplies,Binders,Central,60540,Naperville,Illinois,United States,0.8,-5.487,2,3.54,-1.55
-US-2020-112326,1/4/2019,1/8/2019,Phillina Ober,Avery,Avery 508,Home Office,Office Supplies,Labels,Central,60540,Naperville,Illinois,United States,0.2,4.2717,3,11.784,0.3625
-US-2020-112326,1/4/2019,1/8/2019,Phillina Ober,SAFCO,SAFCO Boltless Steel Shelving,Home Office,Office Supplies,Storage,Central,60540,Naperville,Illinois,United States,0.2,-64.7748,3,272.736,-0.2375
-US-2020-141817,1/5/2019,1/12/2019,Mick Brown,Avery,"Avery Hi-Liter EverBold Pen Style Fluorescent Highlighters, 4/Pack",Consumer,Office Supplies,Art,East,19143,Philadelphia,Pennsylvania,United States,0.2,4.884,3,19.536,0.25
-US-2020-106054,1/6/2019,1/7/2019,Jack O'Briant,Dixon,"Dixon Prang Watercolor Pencils, 10-Color Set with Brush",Corporate,Office Supplies,Art,South,30605,Athens,Georgia,United States,0,5.2398,3,12.78,0.41
-US-2020-130813,1/6/2019,1/8/2019,Lycoris Saunders,Xerox,Xerox 225,Consumer,Office Supplies,Paper,West,90049,Los Angeles,California,United States,0,9.3312,3,19.44,0.48
-US-2020-167199,1/6/2019,1/10/2019,Maria Etezadi,Global,Global Deluxe High-Back Manager's Chair,Home Office,Furniture,Chairs,South,42420,Henderson,Kentucky,United States,0,746.4078,9,2573.82,0.29
-US-2020-167199,1/6/2019,1/10/2019,Maria Etezadi,Rogers,Rogers Handheld Barrel Pencil Sharpener,Home Office,Office Supplies,Art,South,42420,Henderson,Kentucky,United States,0,1.4796,2,5.48,0.27
-US-2020-167199,1/6/2019,1/10/2019,Maria Etezadi,Ibico,Ibico Hi-Tech Manual Binding System,Home Office,Office Supplies,Binders,South,42420,Henderson,Kentucky,United States,0,274.491,2,609.98,0.45
-US-2020-167199,1/6/2019,1/10/2019,Maria Etezadi,Alliance,"Alliance Super-Size Bands, Assorted Sizes",Home Office,Office Supplies,Fasteners,South,42420,Henderson,Kentucky,United States,0,0.3112,4,31.12,0.01
-US-2020-167199,1/6/2019,1/10/2019,Maria Etezadi,Southworth,Southworth 25% Cotton Granite Paper & Envelopes,Home Office,Office Supplies,Paper,South,42420,Henderson,Kentucky,United States,0,3.0084,1,6.54,0.46
-US-2020-167199,1/6/2019,1/10/2019,Maria Etezadi,Other,Wireless Extenders zBoost YX545 SOHO Signal Booster,Home Office,Technology,Phones,South,42420,Henderson,Kentucky,United States,0,204.1092,4,755.96,0.27
-US-2020-167199,1/6/2019,1/10/2019,Maria Etezadi,GE,GE 30524EE4,Home Office,Technology,Phones,South,42420,Henderson,Kentucky,United States,0,113.6742,2,391.98,0.29
 US-2020-105417,1/7/2019,1/12/2019,Vivek Sundaresam,Howard Miller,"Howard Miller 14-1/2"" Diameter Chrome Round Wall Clock",Consumer,Furniture,Furnishings,Central,77340,Huntsville,Texas,United States,0.6,-53.7096,3,76.728,-0.7
 US-2020-105417,1/7/2019,1/12/2019,Vivek Sundaresam,Acco,"Acco Four Pocket Poly Ring Binder with Label Holder, Smoke, 1""",Consumer,Office Supplies,Binders,Central,77340,Huntsville,Texas,United States,0.8,-18.2525,7,10.43,-1.75
 US-2020-135405,1/9/2019,1/13/2019,Melanie Seite,Newell,Newell 312,Consumer,Office Supplies,Art,Central,78041,Laredo,Texas,United States,0.2,1.168,2,9.344,0.125
 US-2020-135405,1/9/2019,1/13/2019,Melanie Seite,Memorex,Memorex Micro Travel Drive 8 GB,Consumer,Technology,Accessories,Central,78041,Laredo,Texas,United States,0.2,9.75,3,31.2,0.3125
-US-2020-149020,1/10/2019,1/15/2019,Anthony Jacobs,Howard Miller,"Howard Miller 11-1/2"" Diameter Ridgewood Wall Clock",Corporate,Furniture,Furnishings,South,22153,Springfield,Virginia,United States,0,21.2954,1,51.94,0.41
-US-2020-149020,1/10/2019,1/15/2019,Anthony Jacobs,Avery,Avery 482,Corporate,Office Supplies,Labels,South,22153,Springfield,Virginia,United States,0,1.3583,1,2.89,0.47
-US-2020-130092,1/11/2019,1/14/2019,Seth Vernon,DAX,"DAX Value U-Channel Document Frames, Easel Back",Consumer,Furniture,Furnishings,East,19901,Dover,Delaware,United States,0,3.0814,2,9.94,0.31
-US-2020-109232,1/13/2019,1/16/2019,Natalie DeCherney,Global,Global Highback Leather Tilter in Burgundy,Consumer,Furniture,Chairs,South,29464,Mount Pleasant,South Carolina,United States,0,87.3504,6,545.94,0.16
-US-2020-118192,1/13/2019,1/18/2019,Michael Moore,Avery,Avery Metallic Poly Binders,Consumer,Office Supplies,Binders,East,43055,Newark,Ohio,United States,0.7,-2.5212,2,3.438,-0.733333333
-US-2020-118192,1/13/2019,1/18/2019,Michael Moore,Xerox,Xerox 1923,Consumer,Office Supplies,Paper,East,43055,Newark,Ohio,United States,0.2,13.0928,7,37.408,0.35
 US-2020-157147,1/13/2019,1/18/2019,Brian Dahlen,O'Sullivan,"O'Sullivan Elevations Bookcase, Cherry Finish",Consumer,Furniture,Bookcases,West,94109,San Francisco,California,United States,0.15,3.9294,3,333.999,0.011764706
 US-2020-157147,1/13/2019,1/18/2019,Brian Dahlen,Other,4009 Highlighters by Sanford,Consumer,Office Supplies,Art,West,94109,San Francisco,California,United States,0,6.567,5,19.9,0.33
 US-2020-157147,1/13/2019,1/18/2019,Brian Dahlen,Tennsco,Tennsco 6- and 18-Compartment Lockers,Consumer,Office Supplies,Storage,West,94109,San Francisco,California,United States,0,238.653,5,1325.85,0.18

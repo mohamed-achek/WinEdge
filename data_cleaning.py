@@ -32,6 +32,14 @@ def clean_data(extracted_data, update_display_callback):
 
         extracted_data['customer_id'] = extracted_data['customer'].map(customer_id_map)
 
+        # Create a unique category_id for each category using UUIDs
+        category_id_map = {}
+        for category in extracted_data['category'].unique():
+            category_id_map[category] = str(uuid.uuid4())
+
+        extracted_data['category_id'] = extracted_data['category'].map(category_id_map)
+
+
         # Call the update_display_callback function to refresh the display
         update_display_callback()
 

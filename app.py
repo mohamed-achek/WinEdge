@@ -6,6 +6,8 @@ import threading
 from data_cleaning import clean_data
 from loading import upload_to_postgresql  # Import the function to upload data to PostgreSQL
 import uuid  # Add import for uuid
+import psycopg2  # Add import for psycopg2
+from tkinter import ttk  # Add import for ttk
 
 # Initialize the app
 app = CTk()
@@ -97,6 +99,15 @@ def show_content(section_name):
         # Show checkboxes and merged data display
         show_checkboxes()
         update_merged_data_display()
+    elif section_name == "Data Analysis":
+        btn_query_sales = CTkButton(content_frame, text="Query Sales", command=query_sales)
+        btn_query_sales.grid(row=3, column=0, pady=10, padx=20)
+
+        btn_query_profit = CTkButton(content_frame, text="Query Profit", command=query_profit)
+        btn_query_profit.grid(row=4, column=0, pady=10, padx=20)
+
+        btn_query_quantity = CTkButton(content_frame, text="Query Quantity", command=query_quantity)
+        btn_query_quantity.grid(row=5, column=0, pady=10, padx=20)
     else:
         hide_checkboxes()
         label = CTkLabel(content_frame, text=f"Welcome to {section_name} Section")
@@ -180,6 +191,66 @@ def upload_to_dwh(data, server, database, username, password):
         messagebox.showinfo("Success", "Data loaded to DWH successfully!")
     except Exception as e:
         messagebox.showerror("Error", f"An error occurred while loading data to DWH: {e}")
+
+
+def query_data(query):
+    try:
+        conn = psycopg2.connect(
+            host="localhost",
+            port="5432",
+            database="Sales",
+            user="postgres",
+            password="pokemongo"
+        )
+        cursor = conn.cursor()
+        cursor.execute(query)
+        data = cursor.fetchall()
+        columns = [desc[0] for desc in cursor.description]
+        conn.close()
+        return data, columns
+    except Exception as e:
+        messagebox.showerror("Error", f"An error occurred while querying data: {e}")
+        return [], []
+
+
+def display_data(data, columns, title):
+    if data and columns:
+        popup = CTk()
+        popup.title(title)
+        popup.geometry("800x400")
+        
+        frame = CTkFrame(popup)
+        frame.pack(fill="both", expand=True, padx=10, pady=10)
+        
+        tree = ttk.Treeview(frame, columns=columns, show="headings")
+        tree.pack(fill="both", expand=True)
+        
+        for col in columns:
+            tree.heading(col, text=col)
+            tree.column(col, anchor="center")
+        
+        for row in data:
+            tree.insert("", "end", values=row)
+        
+        popup.mainloop()
+
+
+def query_sales():
+    query = "SELECT * FROM Sales_Fact ORDER BY sales DESC LIMIT 10"
+    data, columns = query_data(query)
+    display_data(data, columns, "Top 10 Sales")
+
+
+def query_profit():
+    query = "SELECT * FROM Sales_Fact ORDER BY profit DESC LIMIT 10"
+    data, columns = query_data(query)
+    display_data(data, columns, "Top 10 Profit")
+
+
+def query_quantity():
+    query = "SELECT * FROM Sales_Fact ORDER BY quantity DESC LIMIT 10"
+    data, columns = query_data(query)
+    display_data(data, columns, "Top 10 Quantity")
 
 
 # Add navigation buttons

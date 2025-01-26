@@ -7,3 +7,6 @@ customtkinter
 pyodbc
 pandas
 psycopg2
+scikit-learn
+psycopg2-binary
+sqlalchemy

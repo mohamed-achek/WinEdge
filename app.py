@@ -1,4 +1,4 @@
-from customtkinter import CTk, CTkFrame, CTkButton, CTkLabel, CTkCheckBox, CTkTextbox
+from customtkinter import CTk, CTkFrame, CTkButton, CTkLabel, CTkCheckBox, CTkTextbox, CTkImage
 import pandas as pd
 from db import *  # Ensure this module contains `import_from_mysql`, `import_from_csv`, `import_from_mongo`
 from tkinter import filedialog, messagebox
@@ -8,6 +8,8 @@ from loading import upload_to_postgresql  # Import the function to upload data t
 import uuid  # Add import for uuid
 import psycopg2  # Add import for psycopg2
 from tkinter import ttk  # Add import for ttk
+from prediction import predict_total_sales_2024  # Import the specific prediction function
+from PIL import Image  # Import PIL for image handling
 
 # Initialize the app
 app = CTk()
@@ -21,8 +23,8 @@ app.grid_columnconfigure(1, weight=1)
 # Navigation Frame (Left Panel)
 nav_frame = CTkFrame(app, width=200, corner_radius=0)
 nav_frame.grid(row=0, column=0, sticky="nswe")
-nav_frame.grid_rowconfigure((0, 1, 2, 3, 4), weight=1)  # Add equal spacing
-nav_frame.grid_rowconfigure(5, weight=10)  # For extra space at the bottom
+nav_frame.grid_rowconfigure((0, 1, 2, 3, 4, 5), weight=1)  # Add equal spacing
+nav_frame.grid_rowconfigure(6, weight=10)  # For extra space at the bottom
 
 # Content Frame (Right Panel)
 content_frame = CTkFrame(app, corner_radius=0)
@@ -108,10 +110,24 @@ def show_content(section_name):
 
         btn_query_quantity = CTkButton(content_frame, text="Query Quantity", command=query_quantity)
         btn_query_quantity.grid(row=5, column=0, pady=10, padx=20)
+    elif section_name == "Machine Learning":
+        btn_predict_sales = CTkButton(content_frame, text="Predict Sales for next year", command=lambda: threading.Thread(target=predict_sales_and_display).start())
+        btn_predict_sales.grid(row=3, column=0, pady=10, padx=20)
+        
+        global sales_label
+        sales_label = CTkLabel(content_frame, text="", font=("Arial", 16))
+        sales_label.grid(row=4, column=0, pady=10, padx=20, sticky="nsew")
     else:
         hide_checkboxes()
-        label = CTkLabel(content_frame, text=f"Welcome to {section_name} Section")
+        label = CTkLabel(content_frame, text="Welcome to WinEdge", font=("Arial", 20, "bold"))
         label.grid(row=0, column=0, pady=20, padx=20)
+
+    if section_name == "Home":
+        # Load and display the logo
+        logo_image = Image.open("Winedge.png")
+        logo_image = CTkImage(logo_image, size=(400, 400))
+        logo_label = CTkLabel(content_frame, image=logo_image, text="")
+        logo_label.grid(row=1, column=0, pady=20, padx=20, sticky="nsew")
 
 
 def load_csv_data():
@@ -253,6 +269,15 @@ def query_quantity():
     display_data(data, columns, "Top 10 Quantity")
 
 
+def predict_sales_and_display():
+    import prediction
+    df = prediction.fetch_data()
+    df = prediction.preprocess_data(df)
+    model = prediction.train_model(df)
+    total_sales_2024 = prediction.predict_total_sales_2024(model, df)
+    sales_label.configure(text=f"Total Sales for 2024: {total_sales_2024}")
+
+
 # Add navigation buttons
 btn_home = CTkButton(nav_frame, text="Home", command=lambda: show_content("Home"))
 btn_home.grid(row=0, column=0, pady=10, padx=20)
@@ -266,8 +291,11 @@ btn_TL.grid(row=2, column=0, pady=10, padx=20)
 btn_DA = CTkButton(nav_frame, text="Data Analysis", command=lambda: show_content("Data Analysis"))
 btn_DA.grid(row=3, column=0, pady=10, padx=20)
 
+btn_ML = CTkButton(nav_frame, text="Machine Learning", command=lambda: show_content("Machine Learning"))
+btn_ML.grid(row=4, column=0, pady=10, padx=20)
+
 btn_exit = CTkButton(nav_frame, text="Exit", fg_color="red", command=app.quit)
-btn_exit.grid(row=4, column=0, pady=10, padx=20)
+btn_exit.grid(row=5, column=0, pady=10, padx=20)
 
 content_frame.grid_rowconfigure(6, weight=1)
 content_frame.grid_columnconfigure(0, weight=1)

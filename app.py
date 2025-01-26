@@ -125,7 +125,7 @@ def show_content(section_name):
     if section_name == "Home":
         # Load and display the logo
         logo_image = Image.open("Winedge.png")
-        logo_image = CTkImage(logo_image, size=(400, 400))
+        logo_image = CTkImage(logo_image, size=(800, 800))
         logo_label = CTkLabel(content_frame, image=logo_image, text="")
         logo_label.grid(row=1, column=0, pady=20, padx=20, sticky="nsew")
 

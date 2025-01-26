@@ -8,12 +8,12 @@ from loading import upload_to_postgresql  # Import the function to upload data t
 import uuid  # Add import for uuid
 import psycopg2  # Add import for psycopg2
 from tkinter import ttk  # Add import for ttk
-from prediction import predict_total_sales_2024  # Import the specific prediction function
+from prediction import predict_total_sales_2023  # Import the specific prediction function
 from PIL import Image  # Import PIL for image handling
 
 # Initialize the app
 app = CTk()
-app.title("BI")
+app.title("WinEdge")
 app.geometry("800x500")
 
 # Configure the grid layout
@@ -274,8 +274,8 @@ def predict_sales_and_display():
     df = prediction.fetch_data()
     df = prediction.preprocess_data(df)
     model = prediction.train_model(df)
-    total_sales_2024 = prediction.predict_total_sales_2024(model, df)
-    sales_label.configure(text=f"Total Sales for 2024: {total_sales_2024}")
+    total_sales_2023 = prediction.predict_total_sales_2023(model, df)
+    sales_label.configure(text=f"Total Sales for 2023: {total_sales_2023:.2f}")
 
 
 # Add navigation buttons

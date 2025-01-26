@@ -21,10 +21,12 @@ def preprocess_data(df):
 
     return df
 
-# Function to train the model
+# Function to train the model on year 2022 data
 def train_model(df):
-    X = df[['year', 'month']]
-    y = df['sales']
+    # Filter data for the year 2022
+    df_2022 = df[df['year'] == 2022]
+    X = df_2022[['year', 'month']]
+    y = df_2022['sales']
 
     # Split the data into training and testing sets
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -43,18 +45,18 @@ def train_model(df):
 
     return model
 
-# Function to predict total sales for 2024
-def predict_total_sales_2024(model, df):
-    # Generate features for 2024
-    next_year = 2024
+# Function to predict total sales for 2023
+def predict_total_sales_2023(model, df):
+    # Generate features for 2023
+    next_year = 2023
     months = np.arange(1, 13)
     features = pd.DataFrame({'year': next_year, 'month': months})
 
     # Predict sales
     predictions = model.predict(features)
-    total_sales_2024 = predictions.sum()
+    total_sales_2023 = predictions.sum()
 
-    return total_sales_2024
+    return round(total_sales_2023, 2)
 
 # Main function
 def main():
@@ -67,11 +69,11 @@ def main():
     # Train model
     model = train_model(df)
 
-    # Predict total sales for 2024
-    total_sales_2024 = predict_total_sales_2024(model, df)
+    # Predict total sales for 2023
+    total_sales_2023 = predict_total_sales_2023(model, df)
 
-    # Display the total sales for 2024
-    print(f"Total Sales for 2024: {total_sales_2024}")
+    # Display the total sales for 2023
+    print(f"Total Sales for 2023: {total_sales_2023}")
 
 if __name__ == "__main__":
     main()

@@ -10,7 +10,7 @@ WinEdge is a comprehensive Business Intelligence (BI) project designed to analyz
 - **Data Transformation**: Cleans and processes raw data, ensuring consistency, removing duplicates, and assigning unique identifiers to customers.
 - **Data Loading**: Loads the processed data into a PostgreSQL database for scalable and efficient querying.
 - **Dashboards**: Provides interactive visualizations for decision-makers using Power BI.
-- **Integration**: Seamlessly integrates with Python applications for real-time analysis and reporting.
+- **Machine Learning**: Seamlessly integrates with Python applications for predictive analysis.
 
 ---
 
@@ -32,9 +32,8 @@ WinEdge is a comprehensive Business Intelligence (BI) project designed to analyz
 ## Project Objectives
 - Identify optimal areas for expansion and underperforming locations for closure or transfer.
 - Analyze customer segments and target profitable demographics.
-- Streamline inventory management to reduce waste and improve availability.
 - Enable strategic decisions through actionable insights derived from data.
-
+  
 ---
 
 ## Setup Instructions
@@ -48,11 +47,8 @@ WinEdge is a comprehensive Business Intelligence (BI) project designed to analyz
    pip install -r requirements.txt
    ```
 3. Set up the PostgreSQL database and update the connection details in the configuration file.
-4. Run the ETL pipeline to process and load data into the database:
-   ```bash
-   python etl_pipeline.py
-   ```
-5. Launch the dashboard or Python application for analysis and visualization.
+
+4. Launch the dashboard or Python application for analysis and visualization.
 
 ---
 
